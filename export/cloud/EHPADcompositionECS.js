@@ -1,0 +1,12 @@
+export const data = [
+  { uuid: 'T11', name: 'Studio ou appartement du résident', nbStandard: 0.8 },
+  { uuid: 'T21', name: 'T2 (une douche)', nbStandard: 0.9 },
+  {
+    uuid: 'T31',
+    name: 'T3 (appartement standard une baignoire)',
+    nbStandard: 1
+  },
+  { uuid: 'T32', name: 'T3 (une baignoire et une douche)', nbStandard: 1.2 },
+  { uuid: 'T41', name: 'T4 (une baignoire)', nbStandard: 1 },
+  { uuid: 'T42', name: 'T4 (une baignoire et une douche)', nbStandard: 1.2 }
+];

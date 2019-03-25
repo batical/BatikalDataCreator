@@ -1,4 +1,5 @@
-[{
+[
+  {
     "uuid": "FF913EF4-D290-423A-AFD0-A626F918931D",
     "material": "Gaz",
     "densite_fictive": 0.59,
@@ -143,5 +144,5 @@
     "name": "Briquette de bois",
     "pci_maxi": 3250,
     "pci_mini": 3105
-  },
+  }
 ]

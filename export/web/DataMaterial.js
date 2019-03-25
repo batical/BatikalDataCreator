@@ -1,0 +1,20 @@
+export const data = [
+{value : "FF913EF4-D290-423A-AFD0-A626F918931D", label :  "Gaz Naturel moyen"},
+{value : "C5784FBD-1CDE-4606-ACB5-C4AD41017B92", label :  "Gaz nat H"},
+{value : "7E3D48EC-7E15-4FB7-AE58-0D558DFBA0B3", label :  "Air propané"},
+{value : "52DF6702-DE87-408F-9499-FF1E48E40B7F", label :  "Propane"},
+{value : "8C29AF2B-857C-4611-BC75-DDB924EE8776", label :  "Butane commercial"},
+{value : "0AE721E2-9950-4D21-9440-5849F0577122", label :  "Gaz B"},
+{value : "FB4F8240-E925-4FD2-A750-9F143CADB2A7", label :  "Fioul Domestique"},
+{value : "3", label :  "Electrique"},
+{value : "1", label :  "Bûche charme 25% humidité"},
+{value : "2", label :  "Bûche chêne 25% humidité"},
+{value : "4", label :  "Bûche Hêtre 25% humidité"},
+{value : "5", label :  "Bûche Mélèze 25% humidité"},
+{value : "6", label :  "Bûche Pin 25% humidité"},
+{value : "7", label :  "Bûche Sapin 25% humidité"},
+{value : "8", label :  "Plaquette calibrée"},
+{value : "9", label :  "Plaquette fibreuse"},
+{value : "10", label :  "Granulé bois"},
+{value : "11", label :  "Briquette de bois"}
+];

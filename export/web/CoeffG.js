@@ -1,0 +1,23 @@
+export const data = [
+{value : "1", label :  "Isolation norme RT 2012 H3"},
+{value : "2", label :  "Isolation norme RT 2012 H2"},
+{value : "3", label :  "Isolation norme RT 2012 H1"},
+{value : "4", label :  "Isolation norme RT 2005 électricité"},
+{value : "5", label :  "Maison RT 2005"},
+{value : "6", label :  "Isolation norme RT 2005 gaz"},
+{value : "7", label :  "BBC rénovation 2009"},
+{value : "8", label :  "Isolation norme RT 2005"},
+{value : "9", label :  "Isolation norme RT 2000"},
+{value : "10", label :  "HPE rénovation 2009"},
+{value : "11", label :  "Maison RT 2000"},
+{value : "12", label :  "Construction après 1980"},
+{value : "13", label :  "Maison 1990"},
+{value : "14", label :  "Construction ancienne isolée"},
+{value : "15", label :  "Maison années 80"},
+{value : "16", label :  "Immeuble années 80 "},
+{value : "17", label :  "Maison ancienne mur épais pas isolée"},
+{value : "18", label :  "Bâtiments années 1960"},
+{value : "19", label :  "Bâtiments années 1950"},
+{value : "20", label :  "Construction très mal isolée"},
+{value : "21", label :  "Véranda"}
+];
