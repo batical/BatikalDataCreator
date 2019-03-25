@@ -1,0 +1,200 @@
+[
+  {
+    "uuid": "ecs1",
+    "name": "Restaurant",
+    "litresJour": 8.0,
+    "content": "Nombre de repas",
+    "coeffMajoration": 1.5,
+    "phdp": 0.5,
+    "periodeHorairePointe": 2.0,
+    "simultanite": 0.25,
+    "tempsDeuxPointes": 3
+  },
+  {
+    "uuid": "ecs2",
+    "name": "Restaurant de luxe",
+    "litresJour": 20,
+    "content": "Nombre de repas",
+    "coeffMajoration": 1.75,
+    "phdp": 0.6,
+    "periodeHorairePointe": 2,
+    "simultanite": 0.3,
+    "tempsDeuxPointes": 2
+  },
+  {
+    "uuid": "ecs3",
+    "name": "Cantine/Cuisine",
+    "litresJour": 3,
+    "content": "Nombre de repas",
+    "coeffMajoration": 1.5,
+    "phdp": 0.6,
+    "periodeHorairePointe": 5,
+    "simultanite": 0.12,
+    "tempsDeuxPointes": 2
+  },
+  {
+    "uuid": "ecs4",
+    "name": "Buanderie",
+    "litresJour": 6,
+    "content": "Nombre de kilo de linge",
+    "coeffMajoration": 1,
+    "phdp": 0.6,
+    "periodeHorairePointe": 1,
+    "simultanite": 0.6,
+    "tempsDeuxPointes": 2
+  },
+  {
+    "uuid": "ecs5",
+    "name": "Hôtel 1* ",
+    "litresJour": 70,
+    "content": "Nombre de chambres",
+    "coeffMajoration": 1.25,
+    "phdp": 0.5,
+    "periodeHorairePointe": 2,
+    "simultanite": 0.25,
+    "tempsDeuxPointes": 3
+  },
+  {
+    "uuid": "ecs6",
+    "name": "Hôtel 2 ou 3* ",
+    "litresJour": 125,
+    "content": "Nombre de chambres",
+    "coeffMajoration": 1.25,
+    "phdp": 0.5,
+    "periodeHorairePointe": 2,
+    "simultanite": 0.25,
+    "tempsDeuxPointes": 3
+  },
+  {
+    "uuid": "ecs7",
+    "name": "Hôtel 4ou 5*",
+    "litresJour": 165,
+    "content": "Nombres de chambres",
+    "coeffMajoration": 1.75,
+    "phdp": 0.6,
+    "periodeHorairePointe": 2,
+    "simultanite": 0.3,
+    "tempsDeuxPointes": 3
+  },
+  {
+    "uuid": "ecs8",
+    "name": "Camping 4*",
+    "litresJour": 60,
+    "content": "Nombre de personnes",
+    "coeffMajoration": 1.25,
+    "phdp": 0.25,
+    "periodeHorairePointe": 1,
+    "simultanite": 0.25,
+    "tempsDeuxPointes": 1
+  },
+  {
+    "uuid": "ecs9",
+    "name": "Foyers chambres individuelles",
+    "litresJour": 45,
+    "content": "Nombre de chambres",
+    "coeffMajoration": 1,
+    "phdp": 0.4,
+    "periodeHorairePointe": 2,
+    "simultanite": 0.2,
+    "tempsDeuxPointes": 6
+  },
+  {
+    "uuid": "ecs10",
+    "name": "Maison de retraite",
+    "litresJour": 30,
+    "content": "Nombre de chambres",
+    "coeffMajoration": 1,
+    "phdp": 0.4,
+    "periodeHorairePointe": 2,
+    "simultanite": 0.2,
+    "tempsDeuxPointes": 6
+  },
+  {
+    "uuid": "ecs11",
+    "name": "Cuisine Maison de retraite",
+    "litresJour": 8,
+    "content": "Nombre de repas",
+    "coeffMajoration": 1.5,
+    "phdp": 0.6,
+    "periodeHorairePointe": 6,
+    "simultanite": 0.3,
+    "tempsDeuxPointes": 3
+  },
+  {
+    "uuid": "ecs12",
+    "name": "Ecole",
+    "litresJour": 3,
+    "content": "Nombre d'élèves",
+    "coeffMajoration": 1,
+    "phdp": 0.25,
+    "periodeHorairePointe": 1,
+    "simultanite": 0.25,
+    "tempsDeuxPointes": 2
+  },
+  {
+    "uuid": "ecs13",
+    "name": "Internat ou Caserne ",
+    "litresJour": 30,
+    "content": "Nombre de personnes",
+    "coeffMajoration": 1.75,
+    "phdp": 0.4,
+    "periodeHorairePointe": 2,
+    "simultanite": 0.2,
+    "tempsDeuxPointes": 6
+  },
+  {
+    "uuid": "ecs15",
+    "name": "Gymnases",
+    "litresJour": 30,
+    "content": "Nombre de personnes",
+    "coeffMajoration": 2,
+    "phdp": 0.25,
+    "periodeHorairePointe": 1,
+    "simultanite": 0.25,
+    "tempsDeuxPointes": 0.5
+  },
+  {
+    "uuid": "ecs16",
+    "name": "Stades",
+    "litresJour": 40,
+    "content": "Nombre de personnes",
+    "coeffMajoration": 2,
+    "phdp": 0.25,
+    "periodeHorairePointe": 1,
+    "simultanite": 0.25,
+    "tempsDeuxPointes": 0.5
+  },
+  {
+    "uuid": "ecs17",
+    "name": "Piscine avec douches",
+    "litresJour": 40,
+    "content": "Nombre de visiteurs",
+    "coeffMajoration": 2,
+    "phdp": 0.25,
+    "periodeHorairePointe": 1,
+    "simultanite": 0.25,
+    "tempsDeuxPointes": 1
+  },
+  {
+    "uuid": "ecs18",
+    "name": "Bureaux",
+    "litresJour": 8,
+    "content": "Nombre de bureaux",
+    "coeffMajoration": 1,
+    "phdp": 0.25,
+    "periodeHorairePointe": 1,
+    "simultanite": 0.25,
+    "tempsDeuxPointes": 6
+  },
+  {
+    "uuid": "ecs21",
+    "name": "Hopital et maternité",
+    "litresJour": 60,
+    "content": "Nombre de lit et repas",
+    "coeffMajoration": 1,
+    "phdp": 0.4,
+    "periodeHorairePointe": 2,
+    "simultanite": 0.2,
+    "tempsDeuxPointes": 1
+  }
+]

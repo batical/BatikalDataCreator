@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051DA1BC1CAF26C40065AF5C /* RPerteChargeUniteCalcul.m in Sources */ = {isa = PBXBuildFile; fileRef = 051DA1BB1CAF26C40065AF5C /* RPerteChargeUniteCalcul.m */; };
+		054DBD651E53670B00503892 /* RRendementProduction.m in Sources */ = {isa = PBXBuildFile; fileRef = 054DBD641E53670B00503892 /* RRendementProduction.m */; };
+		055332D31C9E030C00BABFB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 055332D21C9E030C00BABFB7 /* main.m */; };
+		055332DE1C9E09A600BABFB7 /* RTubes.m in Sources */ = {isa = PBXBuildFile; fileRef = 055332DD1C9E09A600BABFB7 /* RTubes.m */; };
+		055332E61CA009E700BABFB7 /* RDataMatrial.m in Sources */ = {isa = PBXBuildFile; fileRef = 055332E41CA009E700BABFB7 /* RDataMatrial.m */; };
+		055332EB1CA00DAA00BABFB7 /* RConductivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 055332EA1CA00DAA00BABFB7 /* RConductivity.m */; };
+		055F3EDF1CADBED0007B3664 /* RMasseVolumiqueViscosite.m in Sources */ = {isa = PBXBuildFile; fileRef = 055F3EDC1CADBED0007B3664 /* RMasseVolumiqueViscosite.m */; };
+		055F3EE01CADBED0007B3664 /* RPerteChargeAccident.m in Sources */ = {isa = PBXBuildFile; fileRef = 055F3EDE1CADBED0007B3664 /* RPerteChargeAccident.m */; };
+		055F3F021CAE6B28007B3664 /* RTempExtZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 055F3F011CAE6B28007B3664 /* RTempExtZone.m */; };
+		055F3F091CAE6C1C007B3664 /* RDepartementTemperatureExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 055F3F061CAE6C1C007B3664 /* RDepartementTemperatureExt.m */; };
+		057DF3CA1E46821A006E443C /* RCoefficientG.m in Sources */ = {isa = PBXBuildFile; fileRef = 057DF3C91E46821A006E443C /* RCoefficientG.m */; };
+		05B20F191CC6AB0200F94E4D /* RRegimeDimensionnement.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B20F161CC6AB0200F94E4D /* RRegimeDimensionnement.m */; };
+		05B20F1A1CC6AB0200F94E4D /* RTypeRadiateur.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B20F181CC6AB0200F94E4D /* RTypeRadiateur.m */; };
+		05EFCD9F1DCCB56F00FCF034 /* RCoefficientMajorationBatiment.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EFCD9E1DCCB56F00FCF034 /* RCoefficientMajorationBatiment.m */; };
+		05FBE3E61D2D2B8F007B42F8 /* RDegreJourUnifie.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FBE3E51D2D2B8F007B42F8 /* RDegreJourUnifie.m */; };
+		05FBE3EA1D2D4A38007B42F8 /* RCoefficientD.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FBE3E91D2D4A38007B42F8 /* RCoefficientD.m */; };
+		38FF64F8D42002A9CE8CC3BC /* libPods-BaticalRealm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD5C90C719C135072D6ABAA /* libPods-BaticalRealm.a */; };
+		9633BF0D1FDAFAD300996FE7 /* RSqualitel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9633BF091FDAFAD200996FE7 /* RSqualitel.m */; };
+		9633BF0E1FDAFAD300996FE7 /* RCompostionFoyerStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9633BF0A1FDAFAD200996FE7 /* RCompostionFoyerStandard.m */; };
+		9633BF0F1FDAFAD300996FE7 /* RLogementCompoEHPAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9633BF0B1FDAFAD300996FE7 /* RLogementCompoEHPAD.m */; };
+		9633BF1A1FDBF9A400996FE7 /* RDebitPlomberie.m in Sources */ = {isa = PBXBuildFile; fileRef = 9633BF191FDBF9A300996FE7 /* RDebitPlomberie.m */; };
+		96AEF32F1FD4420000D57830 /* RAdoucisseurDiametreDebit.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AEF3291FD441FF00D57830 /* RAdoucisseurDiametreDebit.m */; };
+		96AEF3301FD4420000D57830 /* RCapaResine.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AEF32C1FD441FF00D57830 /* RCapaResine.m */; };
+		96DCA2DA1FE15FC900B8E800 /* RCanalisationDebitMinMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DCA2D81FE15FC900B8E800 /* RCanalisationDebitMinMax.m */; };
+		96DD5A7D1FD439BB0027CD27 /* RLogementCompositionECS.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD5A7C1FD439BB0027CD27 /* RLogementCompositionECS.m */; };
+		96E301341FEBF5030080F2D1 /* RIsolantECS.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E301321FEBF5030080F2D1 /* RIsolantECS.m */; };
+		A90853D72183646A003A116B /* AdoucisseurDiametreDebit.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853CE2183644F003A116B /* AdoucisseurDiametreDebit.json */; };
+		A90853D82183646A003A116B /* CanalsatinDebitMinMax.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C92183644F003A116B /* CanalsatinDebitMinMax.json */; };
+		A90853D92183646A003A116B /* CapaResine.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853D221836450003A116B /* CapaResine.json */; };
+		A90853DA2183646A003A116B /* coeffD.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C02183644E003A116B /* coeffD.json */; };
+		A90853DB2183646A003A116B /* coeffG.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853BF2183644E003A116B /* coeffG.json */; };
+		A90853DC2183646A003A116B /* CoefficientMajorationBatiment.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853A92183644C003A116B /* CoefficientMajorationBatiment.json */; };
+		A90853DD2183646A003A116B /* Compositionfoyerstandard.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853A52183644C003A116B /* Compositionfoyerstandard.json */; };
+		A90853DE2183646A003A116B /* Conductivite.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C62183644E003A116B /* Conductivite.json */; };
+		A90853DF2183646A003A116B /* DataMaterial.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C32183644E003A116B /* DataMaterial.json */; };
+		A90853E02183646A003A116B /* Debitplomberie.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853B92183644D003A116B /* Debitplomberie.json */; };
+		A90853E12183646A003A116B /* DepartementZone.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853B42183644D003A116B /* DepartementZone.json */; };
+		A90853E22183646A003A116B /* DJU30.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853D421836450003A116B /* DJU30.json */; };
+		A90853E32183646A003A116B /* DJU2017CH.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853A12183644C003A116B /* DJU2017CH.json */; };
+		A90853E42183646A003A116B /* Dngaineeuroventcarrérectangulaire.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853AB2183644C003A116B /* Dngaineeuroventcarrérectangulaire.json */; };
+		A90853E52183646A003A116B /* Dngaineeuroventcirculaire.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A908539F2183644C003A116B /* Dngaineeuroventcirculaire.json */; };
+		A90853E62183646A003A116B /* EHPADcompositionECS.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C22183644E003A116B /* EHPADcompositionECS.json */; };
+		A90853E72183646A003A116B /* IsolantECS.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C12183644E003A116B /* IsolantECS.json */; };
+		A90853E82183646A003A116B /* LogementCompositionECS.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853A62183644C003A116B /* LogementCompositionECS.json */; };
+		A90853E92183646A003A116B /* MasseVolumiqueViscosite.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853B32183644D003A116B /* MasseVolumiqueViscosite.json */; };
+		A90853EA2183646A003A116B /* PerteChargeAccident.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853A72183644C003A116B /* PerteChargeAccident.json */; };
+		A90853EB2183646A003A116B /* PerteChargeUnite.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853AE2183644C003A116B /* PerteChargeUnite.json */; };
+		A90853EC2183646A003A116B /* RegimeDimensionnement.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853CF2183644F003A116B /* RegimeDimensionnement.json */; };
+		A90853ED2183646A003A116B /* RendementProduction.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C82183644E003A116B /* RendementProduction.json */; };
+		A90853EE2183646A003A116B /* Rugositeboussicaud20.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853D521836450003A116B /* Rugositeboussicaud20.json */; };
+		A90853EF2183646A003A116B /* Squalitel.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C52183644E003A116B /* Squalitel.json */; };
+		A90853F02183646A003A116B /* TemperaturBaseExtZone.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853CD2183644F003A116B /* TemperaturBaseExtZone.json */; };
+		A90853F12183646A003A116B /* TUBES.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853D621836450003A116B /* TUBES.json */; };
+		A90853F22183646A003A116B /* TypeRadiateur.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853AC2183644C003A116B /* TypeRadiateur.json */; };
+		A92E1ADC21146B2200B3C475 /* RDnGaineCirculaire.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E1AD621146B2200B3C475 /* RDnGaineCirculaire.m */; };
+		A92E1ADD21146B2200B3C475 /* RDnGaineRectangulaire.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E1AD921146B2200B3C475 /* RDnGaineRectangulaire.m */; };
+		A92E1ADE21146B2200B3C475 /* RRugositeMaterial.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E1ADA21146B2200B3C475 /* RRugositeMaterial.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		055332CD1C9E030C00BABFB7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				A90853D72183646A003A116B /* AdoucisseurDiametreDebit.json in CopyFiles */,
+				A90853D82183646A003A116B /* CanalsatinDebitMinMax.json in CopyFiles */,
+				A90853D92183646A003A116B /* CapaResine.json in CopyFiles */,
+				A90853DA2183646A003A116B /* coeffD.json in CopyFiles */,
+				A90853DB2183646A003A116B /* coeffG.json in CopyFiles */,
+				A90853DC2183646A003A116B /* CoefficientMajorationBatiment.json in CopyFiles */,
+				A90853DD2183646A003A116B /* Compositionfoyerstandard.json in CopyFiles */,
+				A90853DE2183646A003A116B /* Conductivite.json in CopyFiles */,
+				A90853DF2183646A003A116B /* DataMaterial.json in CopyFiles */,
+				A90853E02183646A003A116B /* Debitplomberie.json in CopyFiles */,
+				A90853E12183646A003A116B /* DepartementZone.json in CopyFiles */,
+				A90853E22183646A003A116B /* DJU30.json in CopyFiles */,
+				A90853E32183646A003A116B /* DJU2017CH.json in CopyFiles */,
+				A90853E42183646A003A116B /* Dngaineeuroventcarrérectangulaire.json in CopyFiles */,
+				A90853E52183646A003A116B /* Dngaineeuroventcirculaire.json in CopyFiles */,
+				A90853E62183646A003A116B /* EHPADcompositionECS.json in CopyFiles */,
+				A90853E72183646A003A116B /* IsolantECS.json in CopyFiles */,
+				A90853E82183646A003A116B /* LogementCompositionECS.json in CopyFiles */,
+				A90853E92183646A003A116B /* MasseVolumiqueViscosite.json in CopyFiles */,
+				A90853EA2183646A003A116B /* PerteChargeAccident.json in CopyFiles */,
+				A90853EB2183646A003A116B /* PerteChargeUnite.json in CopyFiles */,
+				A90853EC2183646A003A116B /* RegimeDimensionnement.json in CopyFiles */,
+				A90853ED2183646A003A116B /* RendementProduction.json in CopyFiles */,
+				A90853EE2183646A003A116B /* Rugositeboussicaud20.json in CopyFiles */,
+				A90853EF2183646A003A116B /* Squalitel.json in CopyFiles */,
+				A90853F02183646A003A116B /* TemperaturBaseExtZone.json in CopyFiles */,
+				A90853F12183646A003A116B /* TUBES.json in CopyFiles */,
+				A90853F22183646A003A116B /* TypeRadiateur.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		051DA1BA1CAF26C40065AF5C /* RPerteChargeUniteCalcul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPerteChargeUniteCalcul.h; sourceTree = "<group>"; };
+		051DA1BB1CAF26C40065AF5C /* RPerteChargeUniteCalcul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPerteChargeUniteCalcul.m; sourceTree = "<group>"; };
+		054DBD631E53670B00503892 /* RRendementProduction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRendementProduction.h; sourceTree = "<group>"; };
+		054DBD641E53670B00503892 /* RRendementProduction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRendementProduction.m; sourceTree = "<group>"; };
+		055332CF1C9E030C00BABFB7 /* BaticalRealm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaticalRealm; sourceTree = BUILT_PRODUCTS_DIR; };
+		055332D21C9E030C00BABFB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		055332D91C9E076B00BABFB7 /* BaticalRealm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaticalRealm-Bridging-Header.h"; sourceTree = "<group>"; };
+		055332DC1C9E09A600BABFB7 /* RTubes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTubes.h; sourceTree = "<group>"; };
+		055332DD1C9E09A600BABFB7 /* RTubes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTubes.m; sourceTree = "<group>"; };
+		055332E31CA009E700BABFB7 /* RDataMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDataMaterial.h; sourceTree = "<group>"; };
+		055332E41CA009E700BABFB7 /* RDataMatrial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDataMatrial.m; sourceTree = "<group>"; };
+		055332E91CA00DAA00BABFB7 /* RConductivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RConductivity.h; sourceTree = "<group>"; };
+		055332EA1CA00DAA00BABFB7 /* RConductivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RConductivity.m; sourceTree = "<group>"; };
+		055F3EDB1CADBED0007B3664 /* RMasseVolumiqueViscosite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMasseVolumiqueViscosite.h; sourceTree = "<group>"; };
+		055F3EDC1CADBED0007B3664 /* RMasseVolumiqueViscosite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMasseVolumiqueViscosite.m; sourceTree = "<group>"; };
+		055F3EDD1CADBED0007B3664 /* RPerteChargeAccident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPerteChargeAccident.h; sourceTree = "<group>"; };
+		055F3EDE1CADBED0007B3664 /* RPerteChargeAccident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPerteChargeAccident.m; sourceTree = "<group>"; };
+		055F3F001CAE6B28007B3664 /* RTempExtZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTempExtZone.h; sourceTree = "<group>"; };
+		055F3F011CAE6B28007B3664 /* RTempExtZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTempExtZone.m; sourceTree = "<group>"; };
+		055F3F051CAE6C1C007B3664 /* RDepartementTemperatureExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDepartementTemperatureExt.h; sourceTree = "<group>"; };
+		055F3F061CAE6C1C007B3664 /* RDepartementTemperatureExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDepartementTemperatureExt.m; sourceTree = "<group>"; };
+		057DF3C81E46821A006E443C /* RCoefficientG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCoefficientG.h; sourceTree = "<group>"; };
+		057DF3C91E46821A006E443C /* RCoefficientG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCoefficientG.m; sourceTree = "<group>"; };
+		05B20F151CC6AB0200F94E4D /* RRegimeDimensionnement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRegimeDimensionnement.h; sourceTree = "<group>"; };
+		05B20F161CC6AB0200F94E4D /* RRegimeDimensionnement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRegimeDimensionnement.m; sourceTree = "<group>"; };
+		05B20F171CC6AB0200F94E4D /* RTypeRadiateur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTypeRadiateur.h; sourceTree = "<group>"; };
+		05B20F181CC6AB0200F94E4D /* RTypeRadiateur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTypeRadiateur.m; sourceTree = "<group>"; };
+		05EFCD9D1DCCB56F00FCF034 /* RCoefficientMajorationBatiment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCoefficientMajorationBatiment.h; sourceTree = "<group>"; };
+		05EFCD9E1DCCB56F00FCF034 /* RCoefficientMajorationBatiment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCoefficientMajorationBatiment.m; sourceTree = "<group>"; };
+		05FBE3E41D2D2B8F007B42F8 /* RDegreJourUnifie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDegreJourUnifie.h; sourceTree = "<group>"; };
+		05FBE3E51D2D2B8F007B42F8 /* RDegreJourUnifie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDegreJourUnifie.m; sourceTree = "<group>"; };
+		05FBE3E81D2D4A38007B42F8 /* RCoefficientD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCoefficientD.h; sourceTree = "<group>"; };
+		05FBE3E91D2D4A38007B42F8 /* RCoefficientD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCoefficientD.m; sourceTree = "<group>"; };
+		1B9CEE4FAE36C040FA97188A /* Pods-BaticalRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaticalRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaticalRealm/Pods-BaticalRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		9633BF071FDAFAD100996FE7 /* RSqualitel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSqualitel.h; sourceTree = "<group>"; };
+		9633BF081FDAFAD200996FE7 /* RLogementCompoEHPAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLogementCompoEHPAD.h; sourceTree = "<group>"; };
+		9633BF091FDAFAD200996FE7 /* RSqualitel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSqualitel.m; sourceTree = "<group>"; };
+		9633BF0A1FDAFAD200996FE7 /* RCompostionFoyerStandard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCompostionFoyerStandard.m; sourceTree = "<group>"; };
+		9633BF0B1FDAFAD300996FE7 /* RLogementCompoEHPAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLogementCompoEHPAD.m; sourceTree = "<group>"; };
+		9633BF0C1FDAFAD300996FE7 /* RCompostionFoyerStandard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCompostionFoyerStandard.h; sourceTree = "<group>"; };
+		9633BF181FDBF9A300996FE7 /* RDebitPlomberie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDebitPlomberie.h; sourceTree = "<group>"; };
+		9633BF191FDBF9A300996FE7 /* RDebitPlomberie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDebitPlomberie.m; sourceTree = "<group>"; };
+		96AEF3291FD441FF00D57830 /* RAdoucisseurDiametreDebit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAdoucisseurDiametreDebit.m; sourceTree = "<group>"; };
+		96AEF32A1FD441FF00D57830 /* RCapaResine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCapaResine.h; sourceTree = "<group>"; };
+		96AEF32B1FD441FF00D57830 /* RAdoucisseurDiametreDebit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAdoucisseurDiametreDebit.h; sourceTree = "<group>"; };
+		96AEF32C1FD441FF00D57830 /* RCapaResine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCapaResine.m; sourceTree = "<group>"; };
+		96DCA2D81FE15FC900B8E800 /* RCanalisationDebitMinMax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCanalisationDebitMinMax.m; sourceTree = "<group>"; };
+		96DCA2D91FE15FC900B8E800 /* RCanalisationDebitMinMax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCanalisationDebitMinMax.h; sourceTree = "<group>"; };
+		96DD5A7B1FD439BB0027CD27 /* RLogementCompositionECS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLogementCompositionECS.h; sourceTree = "<group>"; };
+		96DD5A7C1FD439BB0027CD27 /* RLogementCompositionECS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLogementCompositionECS.m; sourceTree = "<group>"; };
+		96E301321FEBF5030080F2D1 /* RIsolantECS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIsolantECS.m; sourceTree = "<group>"; };
+		96E301331FEBF5030080F2D1 /* RIsolantECS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIsolantECS.h; sourceTree = "<group>"; };
+		A908539F2183644C003A116B /* Dngaineeuroventcirculaire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Dngaineeuroventcirculaire.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Gaineventilation/Gainecirculaire/Dngaineeuroventcirculaire.json"; sourceTree = "<group>"; };
+		A90853A12183644C003A116B /* DJU2017CH.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DJU2017CH.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/DegreJourUnifie/DJU2017CH.json"; sourceTree = "<group>"; };
+		A90853A52183644C003A116B /* Compositionfoyerstandard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Compositionfoyerstandard.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Compositionfoyerstandard/Compositionfoyerstandard.json"; sourceTree = "<group>"; };
+		A90853A62183644C003A116B /* LogementCompositionECS.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LogementCompositionECS.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/LogemementCompositionECS/LogementCompositionECS.json"; sourceTree = "<group>"; };
+		A90853A72183644C003A116B /* PerteChargeAccident.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PerteChargeAccident.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/PerteChargeAccident/PerteChargeAccident.json"; sourceTree = "<group>"; };
+		A90853A92183644C003A116B /* CoefficientMajorationBatiment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CoefficientMajorationBatiment.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/CoefficientMajorationBatiment/CoefficientMajorationBatiment.json"; sourceTree = "<group>"; };
+		A90853AB2183644C003A116B /* Dngaineeuroventcarrérectangulaire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Dngaineeuroventcarrérectangulaire.json"; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Gaineventilation/Gainerectangulaire/Dngaineeuroventcarrérectangulaire.json"; sourceTree = "<group>"; };
+		A90853AC2183644C003A116B /* TypeRadiateur.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TypeRadiateur.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/TypeRadiateur/TypeRadiateur.json"; sourceTree = "<group>"; };
+		A90853AE2183644C003A116B /* PerteChargeUnite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PerteChargeUnite.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/PerteDeChargeUniteCalcul/PerteChargeUnite.json"; sourceTree = "<group>"; };
+		A90853B32183644D003A116B /* MasseVolumiqueViscosite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MasseVolumiqueViscosite.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/MasseVolumiqueViscosite/MasseVolumiqueViscosite.json"; sourceTree = "<group>"; };
+		A90853B42183644D003A116B /* DepartementZone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DepartementZone.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/TemperatureBaseExtParZone/DepartementZone.json"; sourceTree = "<group>"; };
+		A90853B52183644D003A116B /* NE RIEN RENOMMER. A LIRE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "NE RIEN RENOMMER. A LIRE.txt"; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/NE RIEN RENOMMER. A LIRE.txt"; sourceTree = "<group>"; };
+		A90853B92183644D003A116B /* Debitplomberie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Debitplomberie.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Debitplomberie/Debitplomberie.json"; sourceTree = "<group>"; };
+		A90853BF2183644E003A116B /* coeffG.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = coeffG.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/CoefficientG/coeffG.json"; sourceTree = "<group>"; };
+		A90853C02183644E003A116B /* coeffD.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = coeffD.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/CoefficientD/coeffD.json"; sourceTree = "<group>"; };
+		A90853C12183644E003A116B /* IsolantECS.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = IsolantECS.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/IsolantECS/IsolantECS.json"; sourceTree = "<group>"; };
+		A90853C22183644E003A116B /* EHPADcompositionECS.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EHPADcompositionECS.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/EHPADcompositionECS/EHPADcompositionECS.json"; sourceTree = "<group>"; };
+		A90853C32183644E003A116B /* DataMaterial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DataMaterial.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/DataMaterial/DataMaterial.json"; sourceTree = "<group>"; };
+		A90853C52183644E003A116B /* Squalitel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Squalitel.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Squalitel/Squalitel.json"; sourceTree = "<group>"; };
+		A90853C62183644E003A116B /* Conductivite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Conductivite.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Conductivite/Conductivite.json"; sourceTree = "<group>"; };
+		A90853C82183644E003A116B /* RendementProduction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = RendementProduction.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/RendementProduction/RendementProduction.json"; sourceTree = "<group>"; };
+		A90853C92183644F003A116B /* CanalsatinDebitMinMax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CanalsatinDebitMinMax.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/CanalisationDebitMinMax/CanalsatinDebitMinMax.json"; sourceTree = "<group>"; };
+		A90853CD2183644F003A116B /* TemperaturBaseExtZone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TemperaturBaseExtZone.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/TemperatureBaseExtParZone/TemperaturBaseExtZone.json"; sourceTree = "<group>"; };
+		A90853CE2183644F003A116B /* AdoucisseurDiametreDebit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = AdoucisseurDiametreDebit.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/AdoucisseurDiametre/AdoucisseurDiametreDebit.json"; sourceTree = "<group>"; };
+		A90853CF2183644F003A116B /* RegimeDimensionnement.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = RegimeDimensionnement.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/RegimeDimensionnement/RegimeDimensionnement.json"; sourceTree = "<group>"; };
+		A90853D221836450003A116B /* CapaResine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CapaResine.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/capaciteResine/CapaResine.json"; sourceTree = "<group>"; };
+		A90853D421836450003A116B /* DJU30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DJU30.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/DegreJourUnifie/DJU30.json"; sourceTree = "<group>"; };
+		A90853D521836450003A116B /* Rugositeboussicaud20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Rugositeboussicaud20.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Rugosité/Rugositeboussicaud20.json"; sourceTree = "<group>"; };
+		A90853D621836450003A116B /* TUBES.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TUBES.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Tubes/TUBES.json"; sourceTree = "<group>"; };
+		A92E1AD621146B2200B3C475 /* RDnGaineCirculaire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDnGaineCirculaire.m; sourceTree = "<group>"; };
+		A92E1AD721146B2200B3C475 /* RDnGaineCirculaire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDnGaineCirculaire.h; sourceTree = "<group>"; };
+		A92E1AD821146B2200B3C475 /* RRugositeMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRugositeMaterial.h; sourceTree = "<group>"; };
+		A92E1AD921146B2200B3C475 /* RDnGaineRectangulaire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDnGaineRectangulaire.m; sourceTree = "<group>"; };
+		A92E1ADA21146B2200B3C475 /* RRugositeMaterial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRugositeMaterial.m; sourceTree = "<group>"; };
+		A92E1ADB21146B2200B3C475 /* RDnGaineRectangulaire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDnGaineRectangulaire.h; sourceTree = "<group>"; };
+		E44BACE5805F99061A48154F /* Pods-BaticalRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaticalRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaticalRealm/Pods-BaticalRealm.release.xcconfig"; sourceTree = "<group>"; };
+		ECD5C90C719C135072D6ABAA /* libPods-BaticalRealm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaticalRealm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		055332CC1C9E030C00BABFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FF64F8D42002A9CE8CC3BC /* libPods-BaticalRealm.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		055332C61C9E030C00BABFB7 = {
+			isa = PBXGroup;
+			children = (
+				055332D11C9E030C00BABFB7 /* BaticalRealm */,
+				055332D01C9E030C00BABFB7 /* Products */,
+				68B3C7E451EDE4A3718612C5 /* Pods */,
+				7F15EAB6336AD8A20812F876 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		055332D01C9E030C00BABFB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				055332CF1C9E030C00BABFB7 /* BaticalRealm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		055332D11C9E030C00BABFB7 /* BaticalRealm */ = {
+			isa = PBXGroup;
+			children = (
+				055F3EFC1CAE6AF6007B3664 /* class */,
+				055332F01CA0109E00BABFB7 /* JSON */,
+				055332D21C9E030C00BABFB7 /* main.m */,
+				055332D91C9E076B00BABFB7 /* BaticalRealm-Bridging-Header.h */,
+			);
+			path = BaticalRealm;
+			sourceTree = "<group>";
+		};
+		055332F01CA0109E00BABFB7 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				A90853CE2183644F003A116B /* AdoucisseurDiametreDebit.json */,
+				A90853C92183644F003A116B /* CanalsatinDebitMinMax.json */,
+				A90853D221836450003A116B /* CapaResine.json */,
+				A90853C02183644E003A116B /* coeffD.json */,
+				A90853BF2183644E003A116B /* coeffG.json */,
+				A90853A92183644C003A116B /* CoefficientMajorationBatiment.json */,
+				A90853A52183644C003A116B /* Compositionfoyerstandard.json */,
+				A90853C62183644E003A116B /* Conductivite.json */,
+				A90853C32183644E003A116B /* DataMaterial.json */,
+				A90853B92183644D003A116B /* Debitplomberie.json */,
+				A90853B42183644D003A116B /* DepartementZone.json */,
+				A90853D421836450003A116B /* DJU30.json */,
+				A90853A12183644C003A116B /* DJU2017CH.json */,
+				A90853AB2183644C003A116B /* Dngaineeuroventcarrérectangulaire.json */,
+				A908539F2183644C003A116B /* Dngaineeuroventcirculaire.json */,
+				A90853C22183644E003A116B /* EHPADcompositionECS.json */,
+				A90853C12183644E003A116B /* IsolantECS.json */,
+				A90853A62183644C003A116B /* LogementCompositionECS.json */,
+				A90853B32183644D003A116B /* MasseVolumiqueViscosite.json */,
+				A90853B52183644D003A116B /* NE RIEN RENOMMER. A LIRE.txt */,
+				A90853A72183644C003A116B /* PerteChargeAccident.json */,
+				A90853AE2183644C003A116B /* PerteChargeUnite.json */,
+				A90853CF2183644F003A116B /* RegimeDimensionnement.json */,
+				A90853C82183644E003A116B /* RendementProduction.json */,
+				A90853D521836450003A116B /* Rugositeboussicaud20.json */,
+				A90853C52183644E003A116B /* Squalitel.json */,
+				A90853CD2183644F003A116B /* TemperaturBaseExtZone.json */,
+				A90853D621836450003A116B /* TUBES.json */,
+				A90853AC2183644C003A116B /* TypeRadiateur.json */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		055F3EFC1CAE6AF6007B3664 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				96AEF32B1FD441FF00D57830 /* RAdoucisseurDiametreDebit.h */,
+				96AEF3291FD441FF00D57830 /* RAdoucisseurDiametreDebit.m */,
+				96DCA2D91FE15FC900B8E800 /* RCanalisationDebitMinMax.h */,
+				96DCA2D81FE15FC900B8E800 /* RCanalisationDebitMinMax.m */,
+				96AEF32A1FD441FF00D57830 /* RCapaResine.h */,
+				96AEF32C1FD441FF00D57830 /* RCapaResine.m */,
+				05FBE3E81D2D4A38007B42F8 /* RCoefficientD.h */,
+				05FBE3E91D2D4A38007B42F8 /* RCoefficientD.m */,
+				057DF3C81E46821A006E443C /* RCoefficientG.h */,
+				057DF3C91E46821A006E443C /* RCoefficientG.m */,
+				05EFCD9D1DCCB56F00FCF034 /* RCoefficientMajorationBatiment.h */,
+				05EFCD9E1DCCB56F00FCF034 /* RCoefficientMajorationBatiment.m */,
+				9633BF0C1FDAFAD300996FE7 /* RCompostionFoyerStandard.h */,
+				9633BF0A1FDAFAD200996FE7 /* RCompostionFoyerStandard.m */,
+				055332E91CA00DAA00BABFB7 /* RConductivity.h */,
+				055332EA1CA00DAA00BABFB7 /* RConductivity.m */,
+				055332E31CA009E700BABFB7 /* RDataMaterial.h */,
+				055332E41CA009E700BABFB7 /* RDataMatrial.m */,
+				9633BF181FDBF9A300996FE7 /* RDebitPlomberie.h */,
+				9633BF191FDBF9A300996FE7 /* RDebitPlomberie.m */,
+				05FBE3E41D2D2B8F007B42F8 /* RDegreJourUnifie.h */,
+				05FBE3E51D2D2B8F007B42F8 /* RDegreJourUnifie.m */,
+				055F3F051CAE6C1C007B3664 /* RDepartementTemperatureExt.h */,
+				055F3F061CAE6C1C007B3664 /* RDepartementTemperatureExt.m */,
+				A92E1AD721146B2200B3C475 /* RDnGaineCirculaire.h */,
+				A92E1AD621146B2200B3C475 /* RDnGaineCirculaire.m */,
+				A92E1ADB21146B2200B3C475 /* RDnGaineRectangulaire.h */,
+				A92E1AD921146B2200B3C475 /* RDnGaineRectangulaire.m */,
+				96E301331FEBF5030080F2D1 /* RIsolantECS.h */,
+				96E301321FEBF5030080F2D1 /* RIsolantECS.m */,
+				9633BF081FDAFAD200996FE7 /* RLogementCompoEHPAD.h */,
+				9633BF0B1FDAFAD300996FE7 /* RLogementCompoEHPAD.m */,
+				96DD5A7B1FD439BB0027CD27 /* RLogementCompositionECS.h */,
+				96DD5A7C1FD439BB0027CD27 /* RLogementCompositionECS.m */,
+				055F3EDB1CADBED0007B3664 /* RMasseVolumiqueViscosite.h */,
+				055F3EDC1CADBED0007B3664 /* RMasseVolumiqueViscosite.m */,
+				055F3EDD1CADBED0007B3664 /* RPerteChargeAccident.h */,
+				055F3EDE1CADBED0007B3664 /* RPerteChargeAccident.m */,
+				051DA1BA1CAF26C40065AF5C /* RPerteChargeUniteCalcul.h */,
+				051DA1BB1CAF26C40065AF5C /* RPerteChargeUniteCalcul.m */,
+				05B20F151CC6AB0200F94E4D /* RRegimeDimensionnement.h */,
+				05B20F161CC6AB0200F94E4D /* RRegimeDimensionnement.m */,
+				054DBD631E53670B00503892 /* RRendementProduction.h */,
+				054DBD641E53670B00503892 /* RRendementProduction.m */,
+				A92E1AD821146B2200B3C475 /* RRugositeMaterial.h */,
+				A92E1ADA21146B2200B3C475 /* RRugositeMaterial.m */,
+				9633BF071FDAFAD100996FE7 /* RSqualitel.h */,
+				9633BF091FDAFAD200996FE7 /* RSqualitel.m */,
+				055F3F001CAE6B28007B3664 /* RTempExtZone.h */,
+				055F3F011CAE6B28007B3664 /* RTempExtZone.m */,
+				055332DC1C9E09A600BABFB7 /* RTubes.h */,
+				055332DD1C9E09A600BABFB7 /* RTubes.m */,
+				05B20F171CC6AB0200F94E4D /* RTypeRadiateur.h */,
+				05B20F181CC6AB0200F94E4D /* RTypeRadiateur.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		68B3C7E451EDE4A3718612C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B9CEE4FAE36C040FA97188A /* Pods-BaticalRealm.debug.xcconfig */,
+				E44BACE5805F99061A48154F /* Pods-BaticalRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F15EAB6336AD8A20812F876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECD5C90C719C135072D6ABAA /* libPods-BaticalRealm.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		055332CE1C9E030C00BABFB7 /* BaticalRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 055332D61C9E030C00BABFB7 /* Build configuration list for PBXNativeTarget "BaticalRealm" */;
+			buildPhases = (
+				5B333A7546BBB3AA9D2AB1E3 /* [CP] Check Pods Manifest.lock */,
+				055332CB1C9E030C00BABFB7 /* Sources */,
+				055332CC1C9E030C00BABFB7 /* Frameworks */,
+				055332CD1C9E030C00BABFB7 /* CopyFiles */,
+				2B90B8567A3AEEAB2802C785 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaticalRealm;
+			productName = BaticalRealm;
+			productReference = 055332CF1C9E030C00BABFB7 /* BaticalRealm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		055332C71C9E030C00BABFB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sébastien Hecart";
+				TargetAttributes = {
+					055332CE1C9E030C00BABFB7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 055332CA1C9E030C00BABFB7 /* Build configuration list for PBXProject "BaticalRealm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 055332C61C9E030C00BABFB7;
+			productRefGroup = 055332D01C9E030C00BABFB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				055332CE1C9E030C00BABFB7 /* BaticalRealm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B90B8567A3AEEAB2802C785 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaticalRealm/Pods-BaticalRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B333A7546BBB3AA9D2AB1E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaticalRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		055332CB1C9E030C00BABFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055F3F021CAE6B28007B3664 /* RTempExtZone.m in Sources */,
+				05FBE3EA1D2D4A38007B42F8 /* RCoefficientD.m in Sources */,
+				055F3EE01CADBED0007B3664 /* RPerteChargeAccident.m in Sources */,
+				9633BF0F1FDAFAD300996FE7 /* RLogementCompoEHPAD.m in Sources */,
+				055332E61CA009E700BABFB7 /* RDataMatrial.m in Sources */,
+				A92E1ADE21146B2200B3C475 /* RRugositeMaterial.m in Sources */,
+				96AEF3301FD4420000D57830 /* RCapaResine.m in Sources */,
+				05B20F1A1CC6AB0200F94E4D /* RTypeRadiateur.m in Sources */,
+				96DD5A7D1FD439BB0027CD27 /* RLogementCompositionECS.m in Sources */,
+				05FBE3E61D2D2B8F007B42F8 /* RDegreJourUnifie.m in Sources */,
+				05EFCD9F1DCCB56F00FCF034 /* RCoefficientMajorationBatiment.m in Sources */,
+				A92E1ADC21146B2200B3C475 /* RDnGaineCirculaire.m in Sources */,
+				96DCA2DA1FE15FC900B8E800 /* RCanalisationDebitMinMax.m in Sources */,
+				057DF3CA1E46821A006E443C /* RCoefficientG.m in Sources */,
+				055F3F091CAE6C1C007B3664 /* RDepartementTemperatureExt.m in Sources */,
+				96AEF32F1FD4420000D57830 /* RAdoucisseurDiametreDebit.m in Sources */,
+				A92E1ADD21146B2200B3C475 /* RDnGaineRectangulaire.m in Sources */,
+				055332EB1CA00DAA00BABFB7 /* RConductivity.m in Sources */,
+				96E301341FEBF5030080F2D1 /* RIsolantECS.m in Sources */,
+				055F3EDF1CADBED0007B3664 /* RMasseVolumiqueViscosite.m in Sources */,
+				9633BF1A1FDBF9A400996FE7 /* RDebitPlomberie.m in Sources */,
+				05B20F191CC6AB0200F94E4D /* RRegimeDimensionnement.m in Sources */,
+				9633BF0E1FDAFAD300996FE7 /* RCompostionFoyerStandard.m in Sources */,
+				054DBD651E53670B00503892 /* RRendementProduction.m in Sources */,
+				051DA1BC1CAF26C40065AF5C /* RPerteChargeUniteCalcul.m in Sources */,
+				9633BF0D1FDAFAD300996FE7 /* RSqualitel.m in Sources */,
+				055332DE1C9E09A600BABFB7 /* RTubes.m in Sources */,
+				055332D31C9E030C00BABFB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		055332D41C9E030C00BABFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		055332D51C9E030C00BABFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		055332D71C9E030C00BABFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B9CEE4FAE36C040FA97188A /* Pods-BaticalRealm.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BaticalRealm/BaticalRealm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		055332D81C9E030C00BABFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44BACE5805F99061A48154F /* Pods-BaticalRealm.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BaticalRealm/BaticalRealm-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		055332CA1C9E030C00BABFB7 /* Build configuration list for PBXProject "BaticalRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055332D41C9E030C00BABFB7 /* Debug */,
+				055332D51C9E030C00BABFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		055332D61C9E030C00BABFB7 /* Build configuration list for PBXNativeTarget "BaticalRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055332D71C9E030C00BABFB7 /* Debug */,
+				055332D81C9E030C00BABFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 055332C71C9E030C00BABFB7 /* Project object */;
+}

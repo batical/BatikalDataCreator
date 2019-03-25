@@ -1,0 +1,390 @@
+[
+  {
+    "departement": "01",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "02",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "03",
+    "zones": [ { "zoneGeo": "E" } ]
+  },
+  {
+    "departement": "04",
+    "zones": [ { "zoneGeo": "E" } ]
+  },
+  {
+    "departement": "05",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "06",
+    "zones": [ { "zoneGeo": "A" }, { "zoneGeo": "E" } ]
+  },
+  {
+    "departement": "07",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "08",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "09",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "10",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "11",
+    "zones": [ { "zoneGeo": "B" }, { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "12",
+    "zones": [ { "zoneGeo": "D" }, { "zoneGeo": "E" } ]
+  },
+  {
+    "departement": "13",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "14",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "15",
+    "zones": [ { "zoneGeo": "E" } ]
+  },
+  {
+    "departement": "16",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "17",
+    "zones": [ { "zoneGeo": "B" }, { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "18",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "19",
+    "zones": [ { "zoneGeo": "E" } ]
+  },
+  {
+    "departement": "20",
+    "zones": [ { "zoneGeo": "A" } ]
+  },
+  {
+    "departement": "21",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "22",
+    "zones": [ { "zoneGeo": "B" } ]
+  },
+  {
+    "departement": "23",
+    "zones": [ { "zoneGeo": "E" } ]
+  },
+  {
+    "departement": "24",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "25",
+    "zones": [ { "zoneGeo": "H" } ]
+  },
+  {
+    "departement": "26",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "27",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "28",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "29",
+    "zones": [ { "zoneGeo": "B" } ]
+  },
+  {
+    "departement": "30",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "31",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "32",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "33",
+    "zones": [ { "zoneGeo": "B" }, { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "34",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "35",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "36",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "37",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "38",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "39",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "40",
+    "zones": [ { "zoneGeo": "B" }, { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "41",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "42",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "43",
+    "zones": [ { "zoneGeo": "E" } ]
+  },
+  {
+    "departement": "44",
+    "zones": [ { "zoneGeo": "B" }, { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "45",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "46",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "47",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "48",
+    "zones": [ { "zoneGeo": "E" } ]
+  },
+  {
+    "departement": "49",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "50",
+    "zones": [ { "zoneGeo": "B" } ]
+  },
+  {
+    "departement": "51",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "52",
+    "zones": [ { "zoneGeo": "H" } ]
+  },
+  {
+    "departement": "53",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "54",
+    "zones": [ { "zoneGeo": "I" } ]
+  },
+  {
+    "departement": "55",
+    "zones": [ { "zoneGeo": "H" } ]
+  },
+  {
+    "departement": "56",
+    "zones": [ { "zoneGeo": "B" } ]
+  },
+  {
+    "departement": "57",
+    "zones": [ { "zoneGeo": "I" } ]
+  },
+  {
+    "departement": "58",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "59",
+    "zones": [ { "zoneGeo": "F" } ]
+  },
+  {
+    "departement": "60",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "61",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "62",
+    "zones": [ { "zoneGeo": "F" } ]
+  },
+  {
+    "departement": "63",
+    "zones": [ { "zoneGeo": "E" } ]
+  },
+  {
+    "departement": "64",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "65",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "66",
+    "zones": [ { "zoneGeo": "B" }, { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "67",
+    "zones": [ { "zoneGeo": "I" } ]
+  },
+  {
+    "departement": "68",
+    "zones": [ { "zoneGeo": "I" } ]
+  },
+  {
+    "departement": "69",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "70",
+    "zones": [ { "zoneGeo": "H" } ]
+  },
+  {
+    "departement": "71",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "72",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "73",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "74",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "75",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "76",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "77",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "78",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "79",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "80",
+    "zones": [ { "zoneGeo": "F" } ]
+  },
+  {
+    "departement": "81",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "82",
+    "zones": [ { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "83",
+    "zones": [ { "zoneGeo": "A" }, { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "84",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "85",
+    "zones": [ { "zoneGeo": "B" }, { "zoneGeo": "C" } ]
+  },
+  {
+    "departement": "86",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "87",
+    "zones": [ { "zoneGeo": "E" } ]
+  },
+  {
+    "departement": "88",
+    "zones": [ { "zoneGeo": "I" } ]
+  },
+  {
+    "departement": "89",
+    "zones": [ { "zoneGeo": "G" } ]
+  },
+  {
+    "departement": "90",
+    "zones": [ { "zoneGeo": "I" } ]
+  },
+  {
+    "departement": "91",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "92",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "93",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "94",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "95",
+    "zones": [ { "zoneGeo": "D" } ]
+  },
+  {
+    "departement": "2A",
+    "zones": [ { "zoneGeo": "A" } ]
+  },
+  {
+    "departement": "2B",
+    "zones": [ { "zoneGeo": "A" } ]
+  }
+]
