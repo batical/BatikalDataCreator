@@ -1,50 +1,49 @@
-"use strict";
+'use strict';
 
-const fs = require("fs");
-const path = require("path");
-const fileLine = "export const data = ";
-const webFolder = "./export/web/";
-const cloudFolder = "./export/cloud/";
+const fs = require('fs');
+const path = require('path');
+const fileLine = 'export default  ';
+const webFolder = './export/web/';
+const cloudFolder = './export/cloud/';
 
-const mobileAppPath = "/Users/sebastienhecart/batikal/Batikal"
-const cloudPath = "/Users/sebastienhecart/batikal/BatikalDevFirebaseHosting"
-const webPath = "/Users/sebastienhecart/batikal/batikaladmintool"
+const mobileAppPath = '/Users/sebastienhecart/batikal/Batikal';
+const cloudPath = '/Users/sebastienhecart/batikal/BatikalDevFirebaseHosting';
+const webPath = '/Users/sebastienhecart/batikal/batikaladmintool/';
+const fse = require('fs-extra');
 
 main().catch(error => console.log(error));
 const specificCase = [
-  "DepartementZone.json",
-  "DJU30.json",
-  "DJU2017CH.json",
-  "TemperaturBaseExtZone.json",
-  "TUBES.json"
+  'DepartementZone.json',
+  'DJU30.json',
+  'DJU2017CH.json',
+  'TemperaturBaseExtZone.json',
+  'TUBES.json',
+  'DataMaterial.json'
 ];
-async function main() {
-  await deleteFolderContent(webFolder);
-  await deleteFolderContent(cloudFolder);
-  //clean folder
-  fs.readdirSync("./json").forEach(file => {
-    if (!specificCase.includes(file) && file.includes("json")) {
-        console.log(file)
-      createWebCloud(file.replace(".json", ""));
-    }
 
+async function main() {
+  await fse.emptyDir(webFolder);
+  await fse.emptyDir(cloudFolder);
+  //clean folder
+  fs.readdirSync('./json').forEach(file => {
+    if (!specificCase.includes(file) && file.includes('json')) {
+      console.log(file);
+      createWebCloud(file.replace('.json', ''));
+    }
   });
   // AdoucisseurDiametreDebit.json
-
   // createWebCloud("AdoucisseurDiametreDebit");.json
-
   // CapaciteResine.json
   // CoeffD.json
   // CoeffG.json
-  
   // CoefficientMajorationBatiment.json
-
-
   // CompositionFoyerStandard.json
   // Conductivite.json
+  createRDJU();
   // DJU2017CH.json
   // DJU30.json
   // DataMaterial.json
+  createDataMaterial();
   // DebitPlomberie.json
   // DepartementZone.json
   // DnGaineEurovent_CarrreRctangulaire.json
@@ -60,8 +59,18 @@ async function main() {
   // Rugositeboussicaud20.json
   // Squalitel.json
   // TUBES.json
+  createTube();
   // TemperaturBaseExtZone.json
   // TypeRadiateur.json
+  //copy file
+  fs.readdirSync('./export/web').forEach(file => {
+    if (!specificCase.includes(file) && file.includes('js')) {
+      fs.copyFileSync(
+        './export/web/' + file,
+        webPath + 'src/data/Queries/json/' + file
+      );
+    }
+  });
 }
 
 function createWebCloud(url) {
@@ -72,34 +81,217 @@ function createWebCloud(url) {
 function createWebLabelValue(url) {
   let weburl = `${webFolder}${url}.js`;
   const rawdata = fs.readFileSync(`./json/${url}.json`);
-  const jsondata = JSON.parse(rawdata);
-  fs.writeFileSync(weburl, fileLine + "[\n");
+  const jsondata = sortData(JSON.parse(rawdata), url);
+
+  fs.writeFileSync(weburl, fileLine + '[\n');
+  for (let index = 0; index < jsondata.length; index++) {
+    fs.appendFileSync(
+      weburl,
+      `{value : "${jsondata[index].uuid}",
+         label :  "${jsondata[index].name}"}` +
+        (index == jsondata.length - 1 ? '' : ',') +
+        '\n'
+    );
+  }
+  fs.appendFileSync(weburl, '];');
+}
+
+function createCloud(url) {
+  let cloudurl = `${cloudFolder}${url}.js`;
+  const rawdata = fs.readFileSync(`./json/${url}.json`);
+  const jsondata = sortData(JSON.parse(rawdata), url);
+  fs.writeFileSync(cloudurl, fileLine);
+  fs.appendFileSync(cloudurl, `${JSON.stringify(jsondata)}\n`);
+}
+
+function createDataMaterial() {
+  let weburl = `${webFolder}DataMaterial.js`;
+  const rawdata = fs.readFileSync(`./json/DataMaterial.json`);
+  const jsondata = sortData(JSON.parse(rawdata), 'DataMaterial');
+  fs.writeFileSync(weburl, fileLine + '[\n');
   for (let index = 0; index < jsondata.length; index++) {
     if (index == jsondata.length - 1) {
       fs.appendFileSync(
         weburl,
         `{value : "${jsondata[index].uuid}", label :  "${
           jsondata[index].name
-        }"}\n`
+        }", material : "${jsondata[index].material}"}\n`
       );
     } else {
       fs.appendFileSync(
         weburl,
         `{value : "${jsondata[index].uuid}", label :  "${
           jsondata[index].name
-        }"},\n`
+        }", material :"${jsondata[index].material}"},\n`
       );
     }
   }
-  fs.appendFileSync(weburl, "];");
+  fs.appendFileSync(weburl, '];');
+  createCloud('DataMaterial');
 }
 
-function createCloud(url) {
-  let weburl = `${cloudFolder}${url}.js`;
-  const rawdata = fs.readFileSync(`./json/${url}.json`);
-  const jsondata = JSON.parse(rawdata);
-  fs.writeFileSync(weburl, fileLine);
-  fs.appendFileSync(weburl, `${JSON.stringify(jsondata)}\n`);
+function createTube() {
+  let cloudurl = `${cloudFolder}RTubes.js`;
+  let weburl = `${webFolder}RTubes.js`;
+  const rawdata = fs.readFileSync(`./json/TUBES.json`);
+  const fetchData = JSON.parse(rawdata);
+
+  fetchData.sort((a, b) => {
+    let materialA = a.material.toLowerCase(),
+      materialB = b.material.toLowerCase();
+    if (materialA < materialB) {
+      //sort string ascending}
+      return -1;
+    }
+    if (materialA > materialB) {
+      return 1;
+    }
+    if (materialA === materialB) {
+      return a.diamInt - b.diamInt;
+    }
+  });
+  //create hydraulique
+
+  fs.writeFileSync(weburl, 'export const gaz = [\n');
+  let res = fetchData.filter(item => item.type == 'GAZ');
+  let filtered = [...new Set(res.map(item => item.material))];
+
+  filtered.map(material => {
+    let res2 = res.filter(item => item.material == material);
+    fs.appendFileSync(
+      weburl,
+      `{value : "${material}", label :"${material}" ,children : [\n`
+    );
+    for (let index = 0; index < res2.length; index++) {
+      fs.appendFileSync(
+        weburl,
+        `{value : "${res2[index].uuid}",
+           label :  "${res2[index].name}"}` +
+          (index == res2.length - 1 ? '' : ',') +
+          '\n'
+      );
+    }
+    fs.appendFileSync(weburl, `]},\n`);
+  });
+  fs.appendFileSync(weburl, '];\n');
+  fs.appendFileSync(weburl, 'export const hydraulique = [\n');
+  res = fetchData.filter(item => item.type == 'HYDRAULIQUE');
+  filtered = [...new Set(res.map(item => item.material))];
+
+  filtered.map(material => {
+    let res2 = res.filter(item => item.material == material);
+    fs.appendFileSync(
+      weburl,
+      `{value : "${material}", label :"${material}" ,children : [\n`
+    );
+    for (let index = 0; index < res2.length; index++) {
+      fs.appendFileSync(
+        weburl,
+        `{value : "${res2[index].uuid}",
+           label :  "${res2[index].name}"}` +
+          (index == res2.length - 1 ? '' : ',') +
+          '\n'
+      );
+    }
+    fs.appendFileSync(weburl, `]},\n`);
+  });
+  fs.appendFileSync(weburl, '];\n');
+  //create gaz
+  fs.appendFileSync(weburl, 'export const I10TMPATT = [\n');
+  res = fetchData.filter(item => item.type == 'HYDRAULIQUE');
+  filtered = [...new Set(res.map(item => item.material))];
+
+  filtered.map(material => {
+    let res2 = res
+      .filter(item => item.material == material)
+      .filter(item => item.diamExt <= 28);
+    fs.appendFileSync(
+      weburl,
+      `{value : "${material}", label :"${material}" ,children : [\n`
+    );
+    for (let index = 0; index < res2.length; index++) {
+      fs.appendFileSync(
+        weburl,
+        `{value : "${res2[index].uuid}",
+           label :  "${res2[index].name}"}` +
+          (index == res2.length - 1 ? '' : ',') +
+          '\n'
+      );
+    }
+    fs.appendFileSync(weburl, `]},\n`);
+  });
+  fs.appendFileSync(weburl, '];\n');
+
+  fs.writeFileSync(cloudurl, fileLine);
+  fs.appendFileSync(cloudurl, `${JSON.stringify(fetchData)}\n`);
+}
+
+function createRDJU() {
+  let cloudurl = `${cloudFolder}DJU.js`;
+  let weburl = `${webFolder}DJU.js`;
+  const rawdata30 = fs.readFileSync(`./json/DJU30.json`);
+  const rawdata2017 = fs.readFileSync(`./json/DJU2017CH.json`);
+  const jsondata30 = sortData(JSON.parse(rawdata30));
+  const jsondata2017 = sortData(JSON.parse(rawdata2017));
+  const mergeData = jsondata30.concat(jsondata2017);
+  fs.writeFileSync(cloudurl, fileLine);
+  fs.appendFileSync(cloudurl, `${JSON.stringify(mergeData)}\n`);
+  fs.writeFileSync(weburl, fileLine + '[\n');
+  fs.appendFileSync(weburl, '{value : "30ans", label :"30ans" ,children : [\n');
+  for (let index = 0; index < jsondata30.length; index++) {
+    fs.appendFileSync(
+      weburl,
+      `{value : "${jsondata30[index].uuid}",
+         label :  "${jsondata30[index].name}"}` +
+        (index == jsondata30.length - 1 ? '' : ',') +
+        '\n'
+    );
+  }
+  fs.appendFileSync(weburl, ']},');
+  fs.appendFileSync(weburl, '{value : "2017", label :"2017" ,children : [\n');
+  for (let index = 0; index < jsondata2017.length; index++) {
+    fs.appendFileSync(
+      weburl,
+      `{value : "${jsondata2017[index].uuid}",
+         label :  "${jsondata2017[index].name}"}` +
+        (index == jsondata2017.length - 1 ? '' : ',') +
+        '\n'
+    );
+  }
+  fs.appendFileSync(weburl, ']},');
+  fs.appendFileSync(weburl, '];');
+  fs.writeFileSync(cloudurl, fileLine);
+  fs.appendFileSync(cloudurl, `${JSON.stringify(mergeData)}\n`);
+}
+
+function sortData(jsondata, file) {
+  if (file == 'MasseVolumiqueViscosite') {
+    return jsondata.sort((a, b) => {
+      let nameA = a.temperature,
+        nameB = b.temperature;
+      if (nameA < nameB) {
+        //sort string ascending}
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
+      return 0;
+    });
+  }
+
+  return jsondata.sort((a, b) => {
+    let nameA = a.name.toLowerCase(),
+      nameB = b.name.toLowerCase();
+    if (nameA < nameB) {
+      //sort string ascending}
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+    return 0;
+  });
 }
 
 async function deleteFolderContent(folder) {}

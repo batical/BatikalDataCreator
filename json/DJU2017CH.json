@@ -2,7 +2,7 @@
   {
     "uuid": "DJU1Amberieu2017CH",
     "departement": 1,
-    "ville": "Amberieu",
+    "name": "Amberieu",
     "m1": 583.7,
     "m2": 293.7,
     "m3": 238,
@@ -21,7 +21,7 @@
   {
     "uuid": "DJU2StQuentin2017CH",
     "departement": 2,
-    "ville": "St Quentin",
+    "name": "St Quentin",
     "m1": 529.4,
     "m2": 331.5,
     "m3": 269.3,
@@ -40,7 +40,7 @@
   {
     "uuid": "DJU3VichyCharmeil2017CH",
     "departement": 3,
-    "ville": "Vichy-Charmeil",
+    "name": "Vichy-Charmeil",
     "m1": 534.1,
     "m2": 294,
     "m3": 249.3,
@@ -59,7 +59,7 @@
   {
     "uuid": "DJU4StAuban2017CH",
     "departement": 4,
-    "ville": "St Auban",
+    "name": "St Auban",
     "m1": 442.5,
     "m2": 273.2,
     "m3": 214.3,
@@ -78,7 +78,7 @@
   {
     "uuid": "DJU5Embrun2017CH",
     "departement": 5,
-    "ville": "Embrun",
+    "name": "Embrun",
     "m1": 497.1,
     "m2": 328.9,
     "m3": 266,
@@ -97,7 +97,7 @@
   {
     "uuid": "DJU6Cannes2017CH",
     "departement": 6,
-    "ville": "Cannes",
+    "name": "Cannes",
     "m1": 314.7,
     "m2": 190.9,
     "m3": 170.4,
@@ -116,7 +116,7 @@
   {
     "uuid": "DJU7LanasSyn2017CH",
     "departement": 7,
-    "ville": "Lanas Syn",
+    "name": "Lanas Syn",
     "m1": 441.8,
     "m2": 254,
     "m3": 193.6,
@@ -135,7 +135,7 @@
   {
     "uuid": "DJU8CharlevilleMez2017CH",
     "departement": 8,
-    "ville": "Charleville-Mez",
+    "name": "Charleville-Mez",
     "m1": 567.3,
     "m2": 347.7,
     "m3": 300.3,
@@ -154,7 +154,7 @@
   {
     "uuid": "DJU9StGirons2017CH",
     "departement": 9,
-    "ville": "St Girons",
+    "name": "St Girons",
     "m1": 471.7,
     "m2": 270.7,
     "m3": 229.5,
@@ -173,7 +173,7 @@
   {
     "uuid": "DJU10TroyesBarberey2017CH",
     "departement": 10,
-    "ville": "Troyes-Barberey",
+    "name": "Troyes-Barberey",
     "m1": 545.2,
     "m2": 317.4,
     "m3": 266.3,
@@ -192,7 +192,7 @@
   {
     "uuid": "DJU11Carcassonne2017CH",
     "departement": 11,
-    "ville": "Carcassonne",
+    "name": "Carcassonne",
     "m1": 414.9,
     "m2": 228.6,
     "m3": 193.6,
@@ -211,7 +211,7 @@
   {
     "uuid": "DJU12Millau2017CH",
     "departement": 12,
-    "ville": "Millau",
+    "name": "Millau",
     "m1": 519.9,
     "m2": 315.6,
     "m3": 272.6,
@@ -230,7 +230,7 @@
   {
     "uuid": "DJU13AixEnProvence2017CH",
     "departement": 13,
-    "ville": "Aix-En-Provence",
+    "name": "Aix-En-Provence",
     "m1": 401.3,
     "m2": 216.4,
     "m3": 183,
@@ -249,7 +249,7 @@
   {
     "uuid": "DJU13Marseille2017CH",
     "departement": 13,
-    "ville": "Marseille",
+    "name": "Marseille",
     "m1": 345.5,
     "m2": 204.5,
     "m3": 161.9,
@@ -268,7 +268,7 @@
   {
     "uuid": "DJU14CaenCarpiquet2017CH",
     "departement": 14,
-    "ville": "Caen-Carpiquet",
+    "name": "Caen-Carpiquet",
     "m1": 448.8,
     "m2": 301.4,
     "m3": 245.7,
@@ -287,7 +287,7 @@
   {
     "uuid": "DJU15Aurillac2017CH",
     "departement": 15,
-    "ville": "Aurillac",
+    "name": "Aurillac",
     "m1": 532.9,
     "m2": 323.7,
     "m3": 287.4,
@@ -306,7 +306,7 @@
   {
     "uuid": "DJU16Cognac2017CH",
     "departement": 16,
-    "ville": "Cognac",
+    "name": "Cognac",
     "m1": 423.2,
     "m2": 245,
     "m3": 199.8,
@@ -325,7 +325,7 @@
   {
     "uuid": "DJU17LaRochelleAerodrome2017CH",
     "departement": 17,
-    "ville": "La Rochelle Aerodrome",
+    "name": "La Rochelle Aerodrome",
     "m1": 412.7,
     "m2": 256.9,
     "m3": 208.9,
@@ -344,7 +344,7 @@
   {
     "uuid": "DJU18Bourges2017CH",
     "departement": 18,
-    "ville": "Bourges",
+    "name": "Bourges",
     "m1": 510.5,
     "m2": 303.7,
     "m3": 241.3,
@@ -363,7 +363,7 @@
   {
     "uuid": "DJU19Brive2017CH",
     "departement": 19,
-    "ville": "Brive",
+    "name": "Brive",
     "m1": 471.1,
     "m2": 265.5,
     "m3": 215.7,
@@ -382,7 +382,7 @@
   {
     "uuid": "DJU21DijonLongvic2017CH",
     "departement": 21,
-    "ville": "Dijon-Longvic",
+    "name": "Dijon-Longvic",
     "m1": 570,
     "m2": 334.6,
     "m3": 248.8,
@@ -401,7 +401,7 @@
   {
     "uuid": "DJU22StBrieuc2017CH",
     "departement": 22,
-    "ville": "St Brieuc",
+    "name": "St Brieuc",
     "m1": 398.6,
     "m2": 284.2,
     "m3": 244.5,
@@ -420,7 +420,7 @@
   {
     "uuid": "DJU23GueretStLaurent2017CH",
     "departement": 23,
-    "ville": "Gueret-St Laurent",
+    "name": "Gueret-St Laurent",
     "m1": 522.3,
     "m2": 322.1,
     "m3": 267.1,
@@ -439,7 +439,7 @@
   {
     "uuid": "DJU24Bergerac2017CH",
     "departement": 24,
-    "ville": "Bergerac",
+    "name": "Bergerac",
     "m1": 456.8,
     "m2": 261.3,
     "m3": 216.4,
@@ -458,7 +458,7 @@
   {
     "uuid": "DJU25Besancon2017CH",
     "departement": 25,
-    "ville": "Besancon",
+    "name": "Besancon",
     "m1": 581.6,
     "m2": 315.5,
     "m3": 247.8,
@@ -477,7 +477,7 @@
   {
     "uuid": "DJU26Montelimar2017CH",
     "departement": 26,
-    "ville": "Montelimar",
+    "name": "Montelimar",
     "m1": 452.1,
     "m2": 231.5,
     "m3": 181.4,
@@ -496,7 +496,7 @@
   {
     "uuid": "DJU27EvreuxHuest2017CH",
     "departement": 27,
-    "ville": "Evreux-Huest",
+    "name": "Evreux-Huest",
     "m1": 497.7,
     "m2": 311.7,
     "m3": 256.4,
@@ -515,7 +515,7 @@
   {
     "uuid": "DJU28Chartres2017CH",
     "departement": 28,
-    "ville": "Chartres",
+    "name": "Chartres",
     "m1": 504.3,
     "m2": 310,
     "m3": 254.3,
@@ -534,7 +534,7 @@
   {
     "uuid": "DJU29BrestGuipavas2017CH",
     "departement": 29,
-    "ville": "Brest-Guipavas",
+    "name": "Brest-Guipavas",
     "m1": 372.9,
     "m2": 280.9,
     "m3": 242.7,
@@ -553,7 +553,7 @@
   {
     "uuid": "DJU30NimesCourbessac2017CH",
     "departement": 30,
-    "ville": "Nimes-Courbessac",
+    "name": "Nimes-Courbessac",
     "m1": 389.7,
     "m2": 191.3,
     "m3": 142.2,
@@ -572,7 +572,7 @@
   {
     "uuid": "DJU31ToulouseBlagnac2017CH",
     "departement": 31,
-    "ville": "Toulouse-Blagnac",
+    "name": "Toulouse-Blagnac",
     "m1": 436.6,
     "m2": 238.5,
     "m3": 202.3,
@@ -591,7 +591,7 @@
   {
     "uuid": "DJU32Auch2017CH",
     "departement": 32,
-    "ville": "Auch",
+    "name": "Auch",
     "m1": 453.9,
     "m2": 266.7,
     "m3": 219.4,
@@ -610,7 +610,7 @@
   {
     "uuid": "DJU33BordeauxMerignac2017CH",
     "departement": 33,
-    "ville": "Bordeaux-Merignac",
+    "name": "Bordeaux-Merignac",
     "m1": 413.6,
     "m2": 231,
     "m3": 180.5,
@@ -629,7 +629,7 @@
   {
     "uuid": "DJU33LegeCapFerret2017CH",
     "departement": 33,
-    "ville": "Lege-Cap-Ferret",
+    "name": "Lege-Cap-Ferret",
     "m1": 376,
     "m2": 212.5,
     "m3": 168.5,
@@ -648,7 +648,7 @@
   {
     "uuid": "DJU34Montpellier2017CH",
     "departement": 34,
-    "ville": "Montpellier",
+    "name": "Montpellier",
     "m1": 384.1,
     "m2": 196.8,
     "m3": 151.3,
@@ -667,7 +667,7 @@
   {
     "uuid": "DJU35RennesStJacques2017CH",
     "departement": 35,
-    "ville": "Rennes-St Jacques",
+    "name": "Rennes-St Jacques",
     "m1": 445.8,
     "m2": 284.2,
     "m3": 228.5,
@@ -686,7 +686,7 @@
   {
     "uuid": "DJU36Chateauroux Deols2017CH",
     "departement": 36,
-    "ville": "Chateauroux Deols",
+    "name": "Chateauroux Deols",
     "m1": 501,
     "m2": 305,
     "m3": 243.9,
@@ -705,7 +705,7 @@
   {
     "uuid": "DJU37Tours2017CH",
     "departement": 37,
-    "ville": "Tours",
+    "name": "Tours",
     "m1": 470.8,
     "m2": 292,
     "m3": 233.4,
@@ -724,7 +724,7 @@
   {
     "uuid": "DJU38GrenobleStGeoirs2017CH",
     "departement": 38,
-    "ville": "Grenoble-St Geoirs",
+    "name": "Grenoble-St Geoirs",
     "m1": 592.3,
     "m2": 313.7,
     "m3": 262.3,
@@ -743,7 +743,7 @@
   {
     "uuid": "DJU39LonsLeSaunier2017CH",
     "departement": 39,
-    "ville": "Lons Le Saunier",
+    "name": "Lons Le Saunier",
     "m1": 582.5,
     "m2": 293.8,
     "m3": 230.3,
@@ -762,7 +762,7 @@
   {
     "uuid": "DJU40Dax2017CH",
     "departement": 40,
-    "ville": "Dax",
+    "name": "Dax",
     "m1": 415.9,
     "m2": 229.4,
     "m3": 166.6,
@@ -781,7 +781,7 @@
   {
     "uuid": "DJU41Bois2017CH",
     "departement": 41,
-    "ville": "Bois",
+    "name": "Bois",
     "m1": 492.8,
     "m2": 310.3,
     "m3": 245.7,
@@ -800,7 +800,7 @@
   {
     "uuid": "DJU42StEtienneBoutheon2017CH",
     "departement": 42,
-    "ville": "St Etienne-Boutheon",
+    "name": "St Etienne-Boutheon",
     "m1": 559.2,
     "m2": 292.5,
     "m3": 254,
@@ -819,7 +819,7 @@
   {
     "uuid": "DJU43LePuyLoudes2017CH",
     "departement": 43,
-    "ville": "Le Puy-Loudes",
+    "name": "Le Puy-Loudes",
     "m1": 607.4,
     "m2": 366.9,
     "m3": 334.9,
@@ -838,7 +838,7 @@
   {
     "uuid": "DJU44NantesBouguenais2017CH",
     "departement": 44,
-    "ville": "Nantes-Bouguenais",
+    "name": "Nantes-Bouguenais",
     "m1": 426.7,
     "m2": 269.9,
     "m3": 217.8,
@@ -857,7 +857,7 @@
   {
     "uuid": "DJU45Amilly2017CH",
     "departement": 45,
-    "ville": "Amilly",
+    "name": "Amilly",
     "m1": 521.9,
     "m2": 310,
     "m3": 251.2,
@@ -876,7 +876,7 @@
   {
     "uuid": "DJU45Orleans2017CH",
     "departement": 45,
-    "ville": "Orleans",
+    "name": "Orleans",
     "m1": 511.5,
     "m2": 309.9,
     "m3": 246.6,
@@ -895,7 +895,7 @@
   {
     "uuid": "DJU46Gourdon2017CH",
     "departement": 46,
-    "ville": "Gourdon",
+    "name": "Gourdon",
     "m1": 475,
     "m2": 261.9,
     "m3": 217.9,
@@ -914,7 +914,7 @@
   {
     "uuid": "DJU47Agen2017CH",
     "departement": 47,
-    "ville": "Agen",
+    "name": "Agen",
     "m1": 447.2,
     "m2": 248.5,
     "m3": 196.7,
@@ -933,7 +933,7 @@
   {
     "uuid": "DJU48Mende2017CH",
     "departement": 48,
-    "ville": "Mende",
+    "name": "Mende",
     "m1": 558.8,
     "m2": 365.7,
     "m3": 316.7,
@@ -952,7 +952,7 @@
   {
     "uuid": "DJU49Cholet2017CH",
     "departement": 49,
-    "ville": "Cholet",
+    "name": "Cholet",
     "m1": 452.4,
     "m2": 287.8,
     "m3": 236.3,
@@ -971,7 +971,7 @@
   {
     "uuid": "DJU50PteDeLaHague2017CH",
     "departement": 50,
-    "ville": "Pte De La Hague",
+    "name": "Pte De La Hague",
     "m1": 340.4,
     "m2": 272.9,
     "m3": 237.9,
@@ -990,7 +990,7 @@
   {
     "uuid": "DJU51ReimsPrunay2017CH",
     "departement": 51,
-    "ville": "Reims-Prunay",
+    "name": "Reims-Prunay",
     "m1": 550.9,
     "m2": 329,
     "m3": 274,
@@ -1009,7 +1009,7 @@
   {
     "uuid": "DJU52StDizier2017CH",
     "departement": 52,
-    "ville": "St-Dizier",
+    "name": "St-Dizier",
     "m1": 551.7,
     "m2": 315.5,
     "m3": 256.7,
@@ -1028,7 +1028,7 @@
   {
     "uuid": "DJU53LavalEtronnier2017CH",
     "departement": 53,
-    "ville": "Laval-Etronnier",
+    "name": "Laval-Etronnier",
     "m1": 457.1,
     "m2": 296,
     "m3": 237.9,
@@ -1047,7 +1047,7 @@
   {
     "uuid": "DJU54NancyEssey2017CH",
     "departement": 54,
-    "ville": "Nancy-Essey",
+    "name": "Nancy-Essey",
     "m1": 592.3,
     "m2": 338,
     "m3": 276.3,
@@ -1066,7 +1066,7 @@
   {
     "uuid": "DJU55Vassincourt2017CH",
     "departement": 55,
-    "ville": "Vassincourt",
+    "name": "Vassincourt",
     "m1": 553.5,
     "m2": 326.1,
     "m3": 258.1,
@@ -1085,7 +1085,7 @@
   {
     "uuid": "DJU56VannesSene2017CH",
     "departement": 56,
-    "ville": "Vannes-Sene",
+    "name": "Vannes-Sene",
     "m1": 424.6,
     "m2": 275.5,
     "m3": 218.4,
@@ -1104,7 +1104,7 @@
   {
     "uuid": "DJU57MetzFrescaty2017CH",
     "departement": 57,
-    "ville": "Metz-Frescaty",
+    "name": "Metz-Frescaty",
     "m1": 579.3,
     "m2": 356.1,
     "m3": 273.7,
@@ -1123,7 +1123,7 @@
   {
     "uuid": "DJU58NeversMarzy2017CH",
     "departement": 58,
-    "ville": "Nevers-Marzy",
+    "name": "Nevers-Marzy",
     "m1": 529.6,
     "m2": 312.3,
     "m3": 258,
@@ -1142,7 +1142,7 @@
   {
     "uuid": "DJU59LilleLesquin2017CH",
     "departement": 59,
-    "ville": "Lille-Lesquin",
+    "name": "Lille-Lesquin",
     "m1": 498.2,
     "m2": 328.5,
     "m3": 249.8,
@@ -1161,7 +1161,7 @@
   {
     "uuid": "DJU60BeauvaisTille2017CH",
     "departement": 60,
-    "ville": "Beauvais-Tille",
+    "name": "Beauvais-Tille",
     "m1": 515.8,
     "m2": 324.3,
     "m3": 267.5,
@@ -1180,7 +1180,7 @@
   {
     "uuid": "DJU61Alencon2017CH",
     "departement": 61,
-    "ville": "Alencon",
+    "name": "Alencon",
     "m1": 484,
     "m2": 314.1,
     "m3": 255.5,
@@ -1199,7 +1199,7 @@
   {
     "uuid": "DJU62LeTouquet2017CH",
     "departement": 62,
-    "ville": "Le Touquet",
+    "name": "Le Touquet",
     "m1": 462.6,
     "m2": 319.4,
     "m3": 258.3,
@@ -1218,7 +1218,7 @@
   {
     "uuid": "DJU63ClermontFd2017CH",
     "departement": 63,
-    "ville": "Clermont-Fd",
+    "name": "Clermont-Fd",
     "m1": 522.2,
     "m2": 281.4,
     "m3": 232.1,
@@ -1237,7 +1237,7 @@
   {
     "uuid": "DJU64BiarritzAnglet2017CH",
     "departement": 64,
-    "ville": "Biarritz-Anglet",
+    "name": "Biarritz-Anglet",
     "m1": 380.5,
     "m2": 204.1,
     "m3": 172.3,
@@ -1256,7 +1256,7 @@
   {
     "uuid": "DJU64PauUzein2017CH",
     "departement": 64,
-    "ville": "Pau-Uzein",
+    "name": "Pau-Uzein",
     "m1": 431.2,
     "m2": 246.2,
     "m3": 194.1,
@@ -1275,7 +1275,7 @@
   {
     "uuid": "DJU65TarbesOssun2017CH",
     "departement": 65,
-    "ville": "Tarbes-Ossun",
+    "name": "Tarbes-Ossun",
     "m1": 466.9,
     "m2": 274,
     "m3": 227.6,
@@ -1294,7 +1294,7 @@
   {
     "uuid": "DJU66Perpignan2017CH",
     "departement": 66,
-    "ville": "Perpignan",
+    "name": "Perpignan",
     "m1": 317.5,
     "m2": 188.1,
     "m3": 135,
@@ -1313,7 +1313,7 @@
   {
     "uuid": "DJU67StrasbourgEntzheim2017CH",
     "departement": 67,
-    "ville": "Strasbourg-Entzheim",
+    "name": "Strasbourg-Entzheim",
     "m1": 604.3,
     "m2": 351.8,
     "m3": 246.8,
@@ -1332,7 +1332,7 @@
   {
     "uuid": "DJU68Mulhouse2017CH",
     "departement": 68,
-    "ville": "Mulhouse",
+    "name": "Mulhouse",
     "m1": 605.8,
     "m2": 353.7,
     "m3": 278.1,
@@ -1351,7 +1351,7 @@
   {
     "uuid": "DJU69LyonBron2017CH",
     "departement": 69,
-    "ville": "Lyon-Bron",
+    "name": "Lyon-Bron",
     "m1": 532.2,
     "m2": 271.1,
     "m3": 205.4,
@@ -1370,7 +1370,7 @@
   {
     "uuid": "DJU70Luxeuil2017CH",
     "departement": 70,
-    "ville": "Luxeuil",
+    "name": "Luxeuil",
     "m1": 635.7,
     "m2": 338.1,
     "m3": 276.4,
@@ -1389,7 +1389,7 @@
   {
     "uuid": "DJU71Macon2017CH",
     "departement": 71,
-    "ville": "Macon",
+    "name": "Macon",
     "m1": 555.3,
     "m2": 297.5,
     "m3": 221.6,
@@ -1408,7 +1408,7 @@
   {
     "uuid": "DJU72LeMans2017CH",
     "departement": 72,
-    "ville": "Le Mans",
+    "name": "Le Mans",
     "m1": 454.7,
     "m2": 287.7,
     "m3": 220.5,
@@ -1427,7 +1427,7 @@
   {
     "uuid": "DJU73ChamberyAix2017CH",
     "departement": 73,
-    "ville": "Chambery-Aix",
+    "name": "Chambery-Aix",
     "m1": 551.6,
     "m2": 306.6,
     "m3": 237.8,
@@ -1446,7 +1446,7 @@
   {
     "uuid": "DJU73ValDIsereJos2017CH",
     "departement": 73,
-    "ville": "Val D'Isere Jos",
+    "name": "Val D'Isere Jos",
     "m1": 740.6,
     "m2": 540.9,
     "m3": 516.4,
@@ -1465,7 +1465,7 @@
   {
     "uuid": "DJU74EvianSa2017CH",
     "departement": 74,
-    "ville": "Evian Sa",
+    "name": "Evian Sa",
     "m1": 642.4,
     "m2": 385,
     "m3": 310.9,
@@ -1484,7 +1484,7 @@
   {
     "uuid": "DJU75ParisMontsouris2017CH",
     "departement": 75,
-    "ville": "Paris-Montsouris",
+    "name": "Paris-Montsouris",
     "m1": 467.9,
     "m2": 278.4,
     "m3": 206.1,
@@ -1503,7 +1503,7 @@
   {
     "uuid": "DJU76Dieppe2017CH",
     "departement": 76,
-    "ville": "Dieppe",
+    "name": "Dieppe",
     "m1": 442.9,
     "m2": 299.2,
     "m3": 252.2,
@@ -1522,7 +1522,7 @@
   {
     "uuid": "DJU76RouenBoos2017CH",
     "departement": 76,
-    "ville": "Rouen-Boos",
+    "name": "Rouen-Boos",
     "m1": 487.4,
     "m2": 319.3,
     "m3": 254.8,
@@ -1541,7 +1541,7 @@
   {
     "uuid": "DJU77Melun2017CH",
     "departement": 77,
-    "ville": "Melun",
+    "name": "Melun",
     "m1": 518.3,
     "m2": 311.4,
     "m3": 248.8,
@@ -1560,7 +1560,7 @@
   {
     "uuid": "DJU78Villacoublay2017CH",
     "departement": 78,
-    "ville": "Villacoublay",
+    "name": "Villacoublay",
     "m1": 502.8,
     "m2": 309.6,
     "m3": 236.9,
@@ -1579,7 +1579,7 @@
   {
     "uuid": "DJU79Niort2017CH",
     "departement": 79,
-    "ville": "Niort",
+    "name": "Niort",
     "m1": 438.7,
     "m2": 275.8,
     "m3": 224.2,
@@ -1598,7 +1598,7 @@
   {
     "uuid": "DJU80Abbeville2017CH",
     "departement": 80,
-    "ville": "Abbeville",
+    "name": "Abbeville",
     "m1": 483.4,
     "m2": 321.5,
     "m3": 252.5,
@@ -1617,7 +1617,7 @@
   {
     "uuid": "DJU81Albi2017CH",
     "departement": 81,
-    "ville": "Albi",
+    "name": "Albi",
     "m1": 464.3,
     "m2": 256.7,
     "m3": 214.1,
@@ -1636,7 +1636,7 @@
   {
     "uuid": "DJU82Montauban2017CH",
     "departement": 82,
-    "ville": "Montauban",
+    "name": "Montauban",
     "m1": 445.3,
     "m2": 251.9,
     "m3": 205.2,
@@ -1655,7 +1655,7 @@
   {
     "uuid": "DJU83Hyeres2017CH",
     "departement": 83,
-    "ville": "Hyeres",
+    "name": "Hyeres",
     "m1": 289.5,
     "m2": 191.1,
     "m3": 167.5,
@@ -1674,7 +1674,7 @@
   {
     "uuid": "DJU84Avignon2017CH",
     "departement": 84,
-    "ville": "Avignon",
+    "name": "Avignon",
     "m1": 428.3,
     "m2": 203.9,
     "m3": 173,
@@ -1693,7 +1693,7 @@
   {
     "uuid": "DJU84Orange2017CH",
     "departement": 84,
-    "ville": "Orange",
+    "name": "Orange",
     "m1": 423.9,
     "m2": 213.1,
     "m3": 173.6,
@@ -1712,7 +1712,7 @@
   {
     "uuid": "DJU85LIleDYeu2017CH",
     "departement": 85,
-    "ville": "L Ile D Yeu",
+    "name": "L Ile D Yeu",
     "m1": 375.4,
     "m2": 257.4,
     "m3": 220,
@@ -1731,7 +1731,7 @@
   {
     "uuid": "DJU85La RocheSurYon2017CH",
     "departement": 85,
-    "ville": "La Roche Sur Yon",
+    "name": "La Roche Sur Yon",
     "m1": 438.6,
     "m2": 280.1,
     "m3": 234.7,
@@ -1750,7 +1750,7 @@
   {
     "uuid": "DJU86PoitiersBiard2017CH",
     "departement": 86,
-    "ville": "Poitiers-Biard",
+    "name": "Poitiers-Biard",
     "m1": 460.5,
     "m2": 288.6,
     "m3": 237.2,
@@ -1769,7 +1769,7 @@
   {
     "uuid": "DJU87LimogesBellegarde2017CH",
     "departement": 87,
-    "ville": "Limoges-Bellegarde",
+    "name": "Limoges-Bellegarde",
     "m1": 467.1,
     "m2": 305.4,
     "m3": 246.7,
@@ -1788,7 +1788,7 @@
   {
     "uuid": "DJU88Epinal2017CH",
     "departement": 88,
-    "ville": "Epinal",
+    "name": "Epinal",
     "m1": 627.7,
     "m2": 341.4,
     "m3": 290.3,
@@ -1807,7 +1807,7 @@
   {
     "uuid": "DJU89AuxerrePerrigny2017CH",
     "departement": 89,
-    "ville": "Auxerre-Perrigny",
+    "name": "Auxerre-Perrigny",
     "m1": 529.9,
     "m2": 299.8,
     "m3": 247.4,
@@ -1826,7 +1826,7 @@
   {
     "uuid": "DJU91Orly2017CH",
     "departement": 91,
-    "ville": "Orly",
+    "name": "Orly",
     "m1": 498.8,
     "m2": 301,
     "m3": 234.4,
@@ -1845,7 +1845,7 @@
   {
     "uuid": "DJU95Roissy2017CH",
     "departement": 95,
-    "ville": "Roissy",
+    "name": "Roissy",
     "m1": 499.6,
     "m2": 298.6,
     "m3": 225.6,

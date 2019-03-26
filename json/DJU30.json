@@ -13,7 +13,7 @@
     "m9": 105,
     "m7": 0,
     "m8":0,
-    "ville": "Abbeville",
+    "name": "Abbeville",
     "average": 2937,
     "departement": 80,
     "annee" : "30ans"
@@ -32,7 +32,7 @@
     "m9": 44,
     "m7": 0,
     "m8":0,
-    "ville": "Agen",
+    "name": "Agen",
     "average": 2263,
     "departement": 47,
     "annee" : "30ans"
@@ -51,7 +51,7 @@
     "m9": 5,
     "m7": 0,
     "m8":0,
-    "ville": "Ajaccio",
+    "name": "Ajaccio",
     "average": 1579,
     "departement": 20,
     "annee" : "30ans"
@@ -70,7 +70,7 @@
     "m9": 94,
     "m7": 0,
     "m8":0,
-    "ville": "Alençon",
+    "name": "Alençon",
     "average": 2822,
     "departement": 61,
     "annee" : "30ans"
@@ -89,7 +89,7 @@
     "m9": 84,
     "m7": 0,
     "m8":0,
-    "ville": "Ambérieu",
+    "name": "Ambérieu",
     "average": 2838,
     "departement": 1,
     "annee" : "30ans"
@@ -108,7 +108,7 @@
     "m9": 65,
     "m7": 0,
     "m8":0,
-    "ville": "Angers",
+    "name": "Angers",
     "average": 2523,
     "departement": 49,
     "annee" : "30ans"
@@ -127,7 +127,7 @@
     "m9": 78,
     "m7": 0,
     "m8":0,
-    "ville": "Auxerre",
+    "name": "Auxerre",
     "average": 2842,
     "departement": 89,
     "annee" : "30ans"
@@ -146,7 +146,7 @@
     "m9": 2,
     "m7": 0,
     "m8":0,
-    "ville": "Bastia",
+    "name": "Bastia",
     "average": 1468,
     "departement": 20,
     "annee" : "30ans"
@@ -165,7 +165,7 @@
     "m9": 102,
     "m7": 0,
     "m8":0,
-    "ville": "Beauvais",
+    "name": "Beauvais",
     "average": 2964,
     "departement": 60,
     "annee" : "30ans"
@@ -184,7 +184,7 @@
     "m9": 105,
     "m7": 0,
     "m8":0,
-    "ville": "Belfort",
+    "name": "Belfort",
     "average": 3282,
     "departement": 90,
     "annee" : "30ans"
@@ -203,7 +203,7 @@
     "m9": 84,
     "m7": 0,
     "m8":0,
-    "ville": "Besançon",
+    "name": "Besançon",
     "average": 2938,
     "departement": 25,
     "annee" : "30ans"
@@ -222,7 +222,7 @@
     "m9": 26,
     "m7": 0,
     "m8":0,
-    "ville": "Biarritz-Aérodrome",
+    "name": "Biarritz-Aérodrome",
     "average": 1887,
     "departement": 64,
     "annee" : "30ans"
@@ -241,7 +241,7 @@
     "m9": 45,
     "m7": 0,
     "m8":0,
-    "ville": "Bordeaux",
+    "name": "Bordeaux",
     "average": 2187,
     "departement": 33,
     "annee" : "30ans"
@@ -260,7 +260,7 @@
     "m9": 81,
     "m7": 0,
     "m8":0,
-    "ville": "Boulogne-sur-Mer",
+    "name": "Boulogne-sur-Mer",
     "average": 2793,
     "departement": 62,
     "annee" : "30ans"
@@ -279,7 +279,7 @@
     "m9": 73,
     "m7": 0,
     "m8":0,
-    "ville": "Bourges",
+    "name": "Bourges",
     "average": 2658,
     "departement": 18,
     "annee" : "30ans"
@@ -298,7 +298,7 @@
     "m9": 111,
     "m7": 0,
     "m8":0,
-    "ville": "Bourg-Saint-Maurice",
+    "name": "Bourg-Saint-Maurice",
     "average": 3382,
     "departement": 73,
     "annee" : "30ans"
@@ -317,7 +317,7 @@
     "m9": 102,
     "m7": 0,
     "m8":0,
-    "ville": "Brest Guipavas",
+    "name": "Brest Guipavas",
     "average": 2544,
     "departement": 29,
     "annee" : "30ans"
@@ -336,7 +336,7 @@
     "m9": 93,
     "m7": 0,
     "m8":0,
-    "ville": "Caen",
+    "name": "Caen",
     "average": 2713,
     "departement": 14,
     "annee" : "30ans"
@@ -355,7 +355,7 @@
     "m9": 77,
     "m7": 0,
     "m8":0,
-    "ville": "Cap de la Hève",
+    "name": "Cap de la Hève",
     "average": 2713,
     "departement": 76,
     "annee" : "30ans"
@@ -374,7 +374,7 @@
     "m9": 22,
     "m7": 0,
     "m8":0,
-    "ville": "Carcassonne",
+    "name": "Carcassonne",
     "average": 1996,
     "departement": 11,
     "annee" : "30ans"
@@ -393,7 +393,7 @@
     "m9": 38,
     "m7": 0,
     "m8":0,
-    "ville": "Cazaux",
+    "name": "Cazaux",
     "average": 2111,
     "departement": 33,
     "annee" : "30ans"
@@ -412,7 +412,7 @@
     "m9": 108,
     "m7": 0,
     "m8":0,
-    "ville": "Cherbourg-Maupertus",
+    "name": "Cherbourg-Maupertus",
     "average": 2782,
     "departement": 50,
     "annee" : "30ans"
@@ -431,7 +431,7 @@
     "m9": 76,
     "m7": 0,
     "m8":0,
-    "ville": "Clermont-Ferrand",
+    "name": "Clermont-Ferrand",
     "average": 2743,
     "departement": 63,
     "annee" : "30ans"
@@ -450,7 +450,7 @@
     "m9": 44,
     "m7": 0,
     "m8":0,
-    "ville": "Cognac",
+    "name": "Cognac",
     "average": 2229,
     "departement": 16,
     "annee" : "30ans"
@@ -469,7 +469,7 @@
     "m9": 68,
     "m7": 0,
     "m8":0,
-    "ville": "Dijon",
+    "name": "Dijon",
     "average": 2848,
     "departement": 21,
     "annee" : "30ans"
@@ -488,7 +488,7 @@
     "m9": 85,
     "m7": 0,
     "m8":0,
-    "ville": "Dinard",
+    "name": "Dinard",
     "average": 3551,
     "departement": 35,
     "annee" : "30ans"
@@ -507,7 +507,7 @@
     "m9": 71,
     "m7": 0,
     "m8":0,
-    "ville": "Dunkerque",
+    "name": "Dunkerque",
     "average": 2715,
     "departement": 59,
     "annee" : "30ans"
@@ -526,7 +526,7 @@
     "m9": 76,
     "m7": 0,
     "m8":0,
-    "ville": "Embrun",
+    "name": "Embrun",
     "average": 3049,
     "departement": 5,
     "annee" : "30ans"
@@ -545,7 +545,7 @@
     "m9": 56,
     "m7": 0,
     "m8":0,
-    "ville": "Gourdon",
+    "name": "Gourdon",
     "average": 2464,
     "departement": 46,
     "annee" : "30ans"
@@ -564,7 +564,7 @@
     "m9": 99,
     "m7": 0,
     "m8":0,
-    "ville": "Grenoble-Saint-Geoirs",
+    "name": "Grenoble-Saint-Geoirs",
     "average": 3021,
     "departement": 38,
     "annee" : "30ans"
@@ -583,7 +583,7 @@
     "m9": 36,
     "m7": 0,
     "m8":0,
-    "ville": "La Rochelle",
+    "name": "La Rochelle",
     "average": 2145,
     "departement": 17,
     "annee" : "30ans"
@@ -602,7 +602,7 @@
     "m9": 115,
     "m7": 0,
     "m8":0,
-    "ville": "Langres",
+    "name": "Langres",
     "average": 3355,
     "departement": 52,
     "annee" : "30ans"
@@ -621,7 +621,7 @@
     "m9": 79,
     "m7": 0,
     "m8":0,
-    "ville": "Le Mans",
+    "name": "Le Mans",
     "average": 2676,
     "departement": 72,
     "annee" : "30ans"
@@ -640,7 +640,7 @@
     "m9": 112,
     "m7": 0,
     "m8":0,
-    "ville": "Le Puy-en-Velay",
+    "name": "Le Puy-en-Velay",
     "average": 3242,
     "departement": 43,
     "annee" : "30ans"
@@ -659,7 +659,7 @@
     "m9": 105,
     "m7": 0,
     "m8":0,
-    "ville": "Lille",
+    "name": "Lille",
     "average": 2997,
     "departement": 59,
     "annee" : "30ans"
@@ -678,7 +678,7 @@
     "m9": 91,
     "m7": 0,
     "m8":0,
-    "ville": "Limoges- Bellegarde",
+    "name": "Limoges- Bellegarde",
     "average": 2778,
     "departement": 87,
     "annee" : "30ans"
@@ -697,7 +697,7 @@
     "m9": 102,
     "m7": 0,
     "m8":0,
-    "ville": "Luxeuil",
+    "name": "Luxeuil",
     "average": 3200,
     "departement": 70,
     "annee" : "30ans"
@@ -716,7 +716,7 @@
     "m9": 62,
     "m7": 0,
     "m8":0,
-    "ville": "Lyon",
+    "name": "Lyon",
     "average": 2694,
     "departement": 69,
     "annee" : "30ans"
@@ -735,7 +735,7 @@
     "m9": 69,
     "m7": 0,
     "m8":0,
-    "ville": "Mâcon",
+    "name": "Mâcon",
     "average": 2815,
     "departement": 71,
     "annee" : "30ans"
@@ -754,7 +754,7 @@
     "m9": 7,
     "m7": 0,
     "m8":0,
-    "ville": "Marignane",
+    "name": "Marignane",
     "average": 1748,
     "departement": 13,
     "annee" : "30ans"
@@ -773,7 +773,7 @@
     "m9": 102,
     "m7": 0,
     "m8":0,
-    "ville": "Metz",
+    "name": "Metz",
     "average": 3099,
     "departement": 57,
     "annee" : "30ans"
@@ -792,7 +792,7 @@
     "m9": 56,
     "m7": 0,
     "m8":0,
-    "ville": "Millau",
+    "name": "Millau",
     "average": 2509,
     "departement": 12,
     "annee" : "30ans"
@@ -811,7 +811,7 @@
     "m9": 43,
     "m7": 0,
     "m8":0,
-    "ville": "Mont-de-Marsan",
+    "name": "Mont-de-Marsan",
     "average": 2192,
     "departement": 40,
     "annee" : "30ans"
@@ -830,7 +830,7 @@
     "m9": 30,
     "m7": 0,
     "m8":0,
-    "ville": "Montélimar",
+    "name": "Montélimar",
     "average": 2237,
     "departement": 26,
     "annee" : "30ans"
@@ -849,7 +849,7 @@
     "m9": 12,
     "m7": 0,
     "m8":0,
-    "ville": "Montpellier",
+    "name": "Montpellier",
     "average": 1864,
     "departement": 34,
     "annee" : "30ans"
@@ -868,7 +868,7 @@
     "m9": 82,
     "m7": 0,
     "m8":0,
-    "ville": "Mulhouse-Bâle",
+    "name": "Mulhouse-Bâle",
     "average": 3099,
     "departement": 68,
     "annee" : "30ans"
@@ -887,7 +887,7 @@
     "m9": 106,
     "m7": 0,
     "m8":0,
-    "ville": "Nancy",
+    "name": "Nancy",
     "average": 3160,
     "departement": 54,
     "annee" : "30ans"
@@ -906,7 +906,7 @@
     "m9": 58,
     "m7": 0,
     "m8":0,
-    "ville": "Nantes",
+    "name": "Nantes",
     "average": 2386,
     "departement": 44,
     "annee" : "30ans"
@@ -925,7 +925,7 @@
     "m9": 91,
     "m7": 0,
     "m8":0,
-    "ville": "Nevers",
+    "name": "Nevers",
     "average": 2875,
     "departement": 58,
     "annee" : "30ans"
@@ -944,7 +944,7 @@
     "m9": 1,
     "m7": 0,
     "m8":0,
-    "ville": "Nice",
+    "name": "Nice",
     "average": 1468,
     "departement": 6,
     "annee" : "30ans"
@@ -963,7 +963,7 @@
     "m9": 9,
     "m7": 0,
     "m8":0,
-    "ville": "Nîmes",
+    "name": "Nîmes",
     "average": 1817,
     "departement": 30,
     "annee" : "30ans"
@@ -982,7 +982,7 @@
     "m9": 82,
     "m7": 0,
     "m8":0,
-    "ville": "Orléans",
+    "name": "Orléans",
     "average": 2811,
     "departement": 45,
     "annee" : "30ans"
@@ -1001,7 +1001,7 @@
     "m9": 80,
     "m7": 0,
     "m8":0,
-    "ville": "Paris-Le Bourget",
+    "name": "Paris-Le Bourget",
     "average": 2768,
     "departement": 93,
     "annee" : "30ans"
@@ -1020,7 +1020,7 @@
     "m9": 58,
     "m7": 0,
     "m8":0,
-    "ville": "Paris-Montsouris",
+    "name": "Paris-Montsouris",
     "average": 2538,
     "departement": 75,
     "annee" : "30ans"
@@ -1039,7 +1039,7 @@
     "m9": 76,
     "m7": 0,
     "m8":0,
-    "ville": "Paris-Orly",
+    "name": "Paris-Orly",
     "average": 2776,
     "departement": 94,
     "annee" : "30ans"
@@ -1058,7 +1058,7 @@
     "m9": 47,
     "m7": 0,
     "m8":0,
-    "ville": "Pau",
+    "name": "Pau",
     "average": 2248,
     "departement": 64,
     "annee" : "30ans"
@@ -1077,7 +1077,7 @@
     "m9": 6,
     "m7": 0,
     "m8":0,
-    "ville": "Perpignan",
+    "name": "Perpignan",
     "average": 1602,
     "departement": 66,
     "annee" : "30ans"
@@ -1096,7 +1096,7 @@
     "m9": 70,
     "m7": 0,
     "m8":0,
-    "ville": "Poitiers",
+    "name": "Poitiers",
     "average": 2617,
     "departement": 86,
     "annee" : "30ans"
@@ -1115,7 +1115,7 @@
     "m9": 93,
     "m7": 0,
     "m8":0,
-    "ville": "Reims",
+    "name": "Reims",
     "average": 2961,
     "departement": 51,
     "annee" : "30ans"
@@ -1134,7 +1134,7 @@
     "m9": 75,
     "m7": 0,
     "m8":0,
-    "ville": "Rennes",
+    "name": "Rennes",
     "average": 2505,
     "departement": 35,
     "annee" : "30ans"
@@ -1153,7 +1153,7 @@
     "m9": 111,
     "m7": 0,
     "m8":0,
-    "ville": "Rouen-B oos",
+    "name": "Rouen-B oos",
     "average": 3037,
     "departement": 76,
     "annee" : "30ans"
@@ -1172,7 +1172,7 @@
     "m9": 90,
     "m7": 0,
     "m8":0,
-    "ville": "Saint-Étienne Bouthéon",
+    "name": "Saint-Étienne Bouthéon",
     "average": 2926,
     "departement": 42,
     "annee" : "30ans"
@@ -1191,7 +1191,7 @@
     "m9": 101,
     "m7": 0,
     "m8":0,
-    "ville": "Saint-Quentin",
+    "name": "Saint-Quentin",
     "average": 2967,
     "departement": 2,
     "annee" : "30ans"
@@ -1210,7 +1210,7 @@
     "m9": 10,
     "m7": 0,
     "m8":0,
-    "ville": "Saint-Raphaël",
+    "name": "Saint-Raphaël",
     "average": 1766,
     "departement": 83,
     "annee" : "30ans"
@@ -1229,7 +1229,7 @@
     "m9": 87,
     "m7": 0,
     "m8":0,
-    "ville": "Strasbourg",
+    "name": "Strasbourg",
     "average": 3079,
     "departement": 67,
     "annee" : "30ans"
@@ -1248,7 +1248,7 @@
     "m9": 2,
     "m7": 0,
     "m8":0,
-    "ville": "Toulon",
+    "name": "Toulon",
     "average": 1421,
     "departement": 83,
     "annee" : "30ans"
@@ -1267,7 +1267,7 @@
     "m9": 37,
     "m7": 0,
     "m8":0,
-    "ville": "Toulouse-Blagnac",
+    "name": "Toulouse-Blagnac",
     "average": 2207,
     "departement": 31,
     "annee" : "30ans"
@@ -1286,7 +1286,7 @@
     "m9": 68,
     "m7": 0,
     "m8":0,
-    "ville": "Tours",
+    "name": "Tours",
     "average": 2611,
     "departement": 37,
     "annee" : "30ans"
@@ -1305,7 +1305,7 @@
     "m9": 83,
     "m7": 0,
     "m8":0,
-    "ville": "Vichy",
+    "name": "Vichy",
     "average": 2784,
     "departement": 3,
     "annee" : "30ans"
