@@ -7,7 +7,8 @@ const webFolder = './export/web/';
 const cloudFolder = './export/cloud/';
 
 const mobileAppPath = '/Users/sebastienhecart/batikal/Batikal';
-const cloudPath = '/Users/sebastienhecart/batikal/BatikalDevFirebaseHosting';
+const cloudPath =
+  '/Users/sebastienhecart/batikal/BatikalDevFirebaseHosting/appfunctions/src/data/Queries/jsonbase/';
 const webPath = '/Users/sebastienhecart/batikal/batikaladmintool/';
 const fse = require('fs-extra');
 
@@ -20,6 +21,8 @@ const specificCase = [
   'TUBES.json',
   'DataMaterial.json'
 ];
+
+const notNeededForWeb = ['DnGaineEurovent_CarrreRctangulaire'];
 
 async function main() {
   await fse.emptyDir(webFolder);
@@ -71,10 +74,17 @@ async function main() {
       );
     }
   });
+  fs.readdirSync('./export/cloud').forEach(file => {
+    if (!specificCase.includes(file) && file.includes('js')) {
+      fs.copyFileSync('./export/cloud/' + file, cloudPath + file);
+    }
+  });
 }
 
 function createWebCloud(url) {
-  createWebLabelValue(url);
+  if (!notNeededForWeb.includes(url)) {
+    createWebLabelValue(url);
+  }
   createCloud(url);
 }
 
