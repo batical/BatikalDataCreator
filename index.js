@@ -43,9 +43,6 @@ async function main() {
   // CompositionFoyerStandard.json
   // Conductivite.json
   createRDJU();
-  // DJU2017CH.json
-  // DJU30.json
-  // DataMaterial.json
   createDataMaterial();
   // DebitPlomberie.json
   // DepartementZone.json
@@ -239,11 +236,8 @@ function createTube() {
 function createRDJU() {
   let cloudurl = `${cloudFolder}DJU.js`;
   let weburl = `${webFolder}DJU.js`;
-  const rawdata30 = fs.readFileSync(`./json/DJU30.json`);
-  const rawdata2017 = fs.readFileSync(`./json/DJU2017CH.json`);
-  const jsondata30 = sortData(JSON.parse(rawdata30));
-  const jsondata2017 = sortData(JSON.parse(rawdata2017));
-  const mergeData = jsondata30.concat(jsondata2017);
+  const rawdata30 = fs.readFileSync(`./json/DJU.json`);
+  const mergeData = sortData(JSON.parse(rawdata30));
   fs.writeFileSync(cloudurl, fileLine);
   fs.appendFileSync(cloudurl, `${JSON.stringify(mergeData)}\n`);
   fs.writeFileSync(weburl, fileLine + '[\n');
