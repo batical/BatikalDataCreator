@@ -15,8 +15,8 @@ const fse = require('fs-extra');
 main().catch(error => console.log(error));
 const specificCase = [
   'DepartementZone.json',
-  'DJU30.json',
-  'DJU2017CH.json',
+  'DJU.json',
+  'DJUClim.json',
   'TemperaturBaseExtZone.json',
   'TUBES.json',
   'DataMaterial.json'
@@ -241,26 +241,67 @@ function createRDJU() {
   fs.writeFileSync(cloudurl, fileLine);
   fs.appendFileSync(cloudurl, `${JSON.stringify(mergeData)}\n`);
   fs.writeFileSync(weburl, fileLine + '[\n');
+
   fs.appendFileSync(weburl, '{value : "30ans", label :"30ans" ,children : [\n');
   for (let index = 0; index < jsondata30.length; index++) {
-    fs.appendFileSync(
-      weburl,
-      `{value : "${jsondata30[index].uuid}",
-         label :  "${jsondata30[index].name}"}` +
-        (index == jsondata30.length - 1 ? '' : ',') +
-        '\n'
-    );
+    if (mergeData[index].annee == '30ans') {
+      fs.appendFileSync(
+        weburl,
+        `{value : "${mergeData[index].uuid}",
+         label :  "${mergeData[index].name}"}` +
+          (index == mergeData.length - 1 ? '' : ',') +
+          '\n'
+      );
+    }
   }
   fs.appendFileSync(weburl, ']},');
   fs.appendFileSync(weburl, '{value : "2017", label :"2017" ,children : [\n');
-  for (let index = 0; index < jsondata2017.length; index++) {
-    fs.appendFileSync(
-      weburl,
-      `{value : "${jsondata2017[index].uuid}",
-         label :  "${jsondata2017[index].name}"}` +
-        (index == jsondata2017.length - 1 ? '' : ',') +
-        '\n'
-    );
+  for (let index = 0; index < mergeData.length; index++) {
+    if (mergeData[index].annee == '2017') {
+      fs.appendFileSync(
+        weburl,
+        `{value : "${mergeData[index].uuid}",
+         label :  "${mergeData[index].name}"}` +
+          (index == mergeData.length - 1 ? '' : ',') +
+          '\n'
+      );
+    }
+  }
+  fs.appendFileSync(weburl, '{value : "2017", label :"2017" ,children : [\n');
+  for (let index = 0; index < mergeData.length; index++) {
+    if (mergeData[index].annee == '2017') {
+      fs.appendFileSync(
+        weburl,
+        `{value : "${mergeData[index].uuid}",
+         label :  "${mergeData[index].name}"}` +
+          (index == mergeData.length - 1 ? '' : ',') +
+          '\n'
+      );
+    }
+  }
+  fs.appendFileSync(weburl, '{value : "2017", label :"2017" ,children : [\n');
+  for (let index = 0; index < mergeData.length; index++) {
+    if (mergeData[index].annee == '2017') {
+      fs.appendFileSync(
+        weburl,
+        `{value : "${mergeData[index].uuid}",
+         label :  "${mergeData[index].name}"}` +
+          (index == mergeData.length - 1 ? '' : ',') +
+          '\n'
+      );
+    }
+  }
+  fs.appendFileSync(weburl, '{value : "2017", label :"2017" ,children : [\n');
+  for (let index = 0; index < mergeData.length; index++) {
+    if (mergeData[index].annee == '2017') {
+      fs.appendFileSync(
+        weburl,
+        `{value : "${mergeData[index].uuid}",
+         label :  "${mergeData[index].name}"}` +
+          (index == mergeData.length - 1 ? '' : ',') +
+          '\n'
+      );
+    }
   }
   fs.appendFileSync(weburl, ']},');
   fs.appendFileSync(weburl, '];');
