@@ -243,7 +243,7 @@ function createRDJU() {
   fs.writeFileSync(weburl, fileLine + '[\n');
 
   fs.appendFileSync(weburl, '{value : "30ans", label :"30ans" ,children : [\n');
-  for (let index = 0; index < jsondata30.length; index++) {
+  for (let index = 0; index < mergeData.length; index++) {
     if (mergeData[index].annee == '30ans') {
       fs.appendFileSync(
         weburl,
@@ -255,9 +255,9 @@ function createRDJU() {
     }
   }
   fs.appendFileSync(weburl, ']},');
-  fs.appendFileSync(weburl, '{value : "2017", label :"2017" ,children : [\n');
+  fs.appendFileSync(weburl, '{value : "2015", label :"2015" ,children : [\n');
   for (let index = 0; index < mergeData.length; index++) {
-    if (mergeData[index].annee == '2017') {
+    if (mergeData[index].annee == '2015') {
       fs.appendFileSync(
         weburl,
         `{value : "${mergeData[index].uuid}",
@@ -267,9 +267,10 @@ function createRDJU() {
       );
     }
   }
-  fs.appendFileSync(weburl, '{value : "2017", label :"2017" ,children : [\n');
+  fs.appendFileSync(weburl, ']},');
+  fs.appendFileSync(weburl, '{value : "2016", label :"2016" ,children : [\n');
   for (let index = 0; index < mergeData.length; index++) {
-    if (mergeData[index].annee == '2017') {
+    if (mergeData[index].annee == '2016') {
       fs.appendFileSync(
         weburl,
         `{value : "${mergeData[index].uuid}",
@@ -279,18 +280,7 @@ function createRDJU() {
       );
     }
   }
-  fs.appendFileSync(weburl, '{value : "2017", label :"2017" ,children : [\n');
-  for (let index = 0; index < mergeData.length; index++) {
-    if (mergeData[index].annee == '2017') {
-      fs.appendFileSync(
-        weburl,
-        `{value : "${mergeData[index].uuid}",
-         label :  "${mergeData[index].name}"}` +
-          (index == mergeData.length - 1 ? '' : ',') +
-          '\n'
-      );
-    }
-  }
+  fs.appendFileSync(weburl, ']},');
   fs.appendFileSync(weburl, '{value : "2017", label :"2017" ,children : [\n');
   for (let index = 0; index < mergeData.length; index++) {
     if (mergeData[index].annee == '2017') {
@@ -304,6 +294,19 @@ function createRDJU() {
     }
   }
   fs.appendFileSync(weburl, ']},');
+  fs.appendFileSync(weburl, '{value : "2018", label :"2018" ,children : [\n');
+  for (let index = 0; index < mergeData.length; index++) {
+    if (mergeData[index].annee == '2018') {
+      fs.appendFileSync(
+        weburl,
+        `{value : "${mergeData[index].uuid}",
+         label :  "${mergeData[index].name}"}` +
+          (index == mergeData.length - 1 ? '' : ',') +
+          '\n'
+      );
+    }
+  }
+  fs.appendFileSync(weburl, ']}');
   fs.appendFileSync(weburl, '];');
   fs.writeFileSync(cloudurl, fileLine);
   fs.appendFileSync(cloudurl, `${JSON.stringify(mergeData)}\n`);
