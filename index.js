@@ -19,7 +19,8 @@ const specificCase = [
   'DJUClim.json',
   'TemperaturBaseExtZone.json',
   'TUBES.json',
-  'DataMaterial.json'
+  'DataMaterial.json',
+  'CoeffGSimplifie.json'
 ];
 
 const notNeededForWeb = ['DnGaineEurovent_CarrreRctangulaire'];
@@ -44,6 +45,7 @@ async function main() {
   // Conductivite.json
   createRDJU();
   createDataMaterial();
+  createCoeffGSimplifie();
   // DebitPlomberie.json
   // DepartementZone.json
   // DnGaineEurovent_CarrreRctangulaire.json
@@ -76,6 +78,10 @@ async function main() {
       fs.copyFileSync('./export/cloud/' + file, cloudPath + file);
     }
   });
+}
+
+function createCoeffGSimplifie() {
+  createCloud('CoeffGSimplifie');
 }
 
 function createWebCloud(url) {
@@ -327,7 +333,9 @@ function sortData(jsondata, file) {
       return 0;
     });
   }
-
+  if (file == 'CoeffGSimplifie') {
+    return jsondata;
+  }
   return jsondata.sort((a, b) => {
     let nameA = a.name.toLowerCase(),
       nameB = b.name.toLowerCase();

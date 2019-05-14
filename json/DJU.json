@@ -1288,7 +1288,7 @@
     "m8": 0,
     "name": "Tours",
     "average": 2611,
-    "departement": 37,
+    "departement": "37",
     "annee": "30ans"
   },
   {
@@ -2299,7 +2299,7 @@
     "annee": "2015"
   },
   {
-    "uuid": "15ch0.00E+00",
+    "uuid": "15ch000E7",
     "departement": "34",
     "name": "Saint-Jean-de-Védas - La Fermaude (34)",
     "m1": 306,
@@ -4864,7 +4864,7 @@
     "annee": "2015"
   },
   {
-    "uuid": "15ch0.00E+00",
+    "uuid": "15ch000E3",
     "departement": "69",
     "name": "Soucieu-en-Jarrest (69)",
     "m1": 433.3,
@@ -5377,7 +5377,7 @@
     "annee": "2015"
   },
   {
-    "uuid": "15ch0.00E+00",
+    "uuid": "15ch000E6",
     "departement": "19",
     "name": "Benayes (19)",
     "m1": 432.4,
@@ -6175,7 +6175,7 @@
     "annee": "2015"
   },
   {
-    "uuid": "15ch0.00E+00",
+    "uuid": "15ch000E2",
     "departement": "03",
     "name": "Saint-Martinien (03)",
     "m1": 423.7,
@@ -7429,7 +7429,7 @@
     "annee": "2015"
   },
   {
-    "uuid": "15ch0.00E+00",
+    "uuid": "15ch000E4",
     "departement": "38",
     "name": "Chélieu (38)",
     "m1": 464.6,
@@ -8170,7 +8170,7 @@
     "annee": "2015"
   },
   {
-    "uuid": "15ch0.00E+00",
+    "uuid": "15ch000E9",
     "departement": "88",
     "name": "Bellefontaine (88)",
     "m1": 517.4,
@@ -9747,7 +9747,7 @@
     "annee": "2016"
   },
   {
-    "uuid": "16ch0",
+    "uuid": "16ch000E7",
     "departement": "34",
     "name": "Saint-Jean-de-Védas - La Fermaude (34)",
     "m1": 296.3,
@@ -11875,7 +11875,7 @@
     "annee": "2016"
   },
   {
-    "uuid": "16ch0",
+    "uuid": "16ch000E6",
     "departement": "19",
     "name": "Benayes (19)",
     "m1": 367.9,
@@ -12844,7 +12844,7 @@
     "annee": "2016"
   },
   {
-    "uuid": "16ch0",
+    "uuid": "16ch000E3",
     "departement": "69",
     "name": "Soucieu-en-Jarrest (69)",
     "m1": 371.7,
@@ -14231,7 +14231,7 @@
     "annee": "2016"
   },
   {
-    "uuid": "16ch0",
+    "uuid": "16ch000E2",
     "departement": "03",
     "name": "Saint-Martinien (03)",
     "m1": 372.3,
@@ -14972,7 +14972,7 @@
     "annee": "2016"
   },
   {
-    "uuid": "16ch0",
+    "uuid": "16ch000E4",
     "departement": "38",
     "name": "Chélieu (38)",
     "m1": 408.2,
@@ -16283,7 +16283,7 @@
     "annee": "2016"
   },
   {
-    "uuid": "16ch0",
+    "uuid": "16ch000E9",
     "departement": "88",
     "name": "Bellefontaine (88)",
     "m1": 492.3,
@@ -17860,7 +17860,7 @@
     "annee": "2017"
   },
   {
-    "uuid": "17ch0",
+    "uuid": "17ch000E7",
     "departement": "34",
     "name": "Saint-Jean-de-Védas - La Fermaude (34)",
     "m1": 383.2,
@@ -20900,7 +20900,7 @@
     "annee": "2017"
   },
   {
-    "uuid": "17ch0",
+    "uuid": "17ch000E6",
     "departement": "19",
     "name": "Benayes (19)",
     "m1": 453.1,
@@ -21451,7 +21451,7 @@
     "annee": "2017"
   },
   {
-    "uuid": "17ch0",
+    "uuid": "17ch000E3",
     "departement": "69",
     "name": "Soucieu-en-Jarrest (69)",
     "m1": 544.2,
@@ -22667,7 +22667,7 @@
     "annee": "2017"
   },
   {
-    "uuid": "17ch0",
+    "uuid": "17ch000E2",
     "departement": "03",
     "name": "Saint-Martinien (03)",
     "m1": 521.3,
@@ -24415,7 +24415,7 @@
     "annee": "2017"
   },
   {
-    "uuid": "17ch0",
+    "uuid": "17ch000E4",
     "departement": "38",
     "name": "Chélieu (38)",
     "m1": 626.4,
@@ -25175,7 +25175,7 @@
     "annee": "2017"
   },
   {
-    "uuid": "17ch0",
+    "uuid": "17ch000E9",
     "departement": "88",
     "name": "Bellefontaine (88)",
     "m1": 672.1,
@@ -26258,7 +26258,7 @@
     "annee": "2018"
   },
   {
-    "uuid": "18ch0",
+    "uuid": "18ch000E2",
     "departement": "03",
     "name": "Saint-Martinien (03)",
     "m1": 337.9,
@@ -28215,7 +28215,7 @@
     "annee": "2018"
   },
   {
-    "uuid": "18ch0",
+    "uuid": "18ch000E6",
     "departement": "19",
     "name": "Benayes (19)",
     "m1": 313.1,
@@ -30799,7 +30799,7 @@
     "annee": "2018"
   },
   {
-    "uuid": "18ch0",
+    "uuid": "18ch000E7",
     "departement": "34",
     "name": "Saint-Jean-de-Védas - La Fermaude (34)",
     "m1": 229.9,
@@ -31255,7 +31255,7 @@
     "annee": "2018"
   },
   {
-    "uuid": "18ch0",
+    "uuid": "18ch000E4",
     "departement": "38",
     "name": "Chélieu (38)",
     "m1": 388.1,
@@ -34447,7 +34447,7 @@
     "annee": "2018"
   },
   {
-    "uuid": "18ch0",
+    "uuid": "18ch000E3",
     "departement": "69",
     "name": "Soucieu-en-Jarrest (69)",
     "m1": 317.3,

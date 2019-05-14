@@ -33,37 +33,44 @@
 		96DCA2DA1FE15FC900B8E800 /* RCanalisationDebitMinMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DCA2D81FE15FC900B8E800 /* RCanalisationDebitMinMax.m */; };
 		96DD5A7D1FD439BB0027CD27 /* RLogementCompositionECS.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD5A7C1FD439BB0027CD27 /* RLogementCompositionECS.m */; };
 		96E301341FEBF5030080F2D1 /* RIsolantECS.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E301321FEBF5030080F2D1 /* RIsolantECS.m */; };
-		A90853D72183646A003A116B /* AdoucisseurDiametreDebit.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853CE2183644F003A116B /* AdoucisseurDiametreDebit.json */; };
-		A90853D82183646A003A116B /* CanalsatinDebitMinMax.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C92183644F003A116B /* CanalsatinDebitMinMax.json */; };
-		A90853D92183646A003A116B /* CapaResine.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853D221836450003A116B /* CapaResine.json */; };
-		A90853DA2183646A003A116B /* coeffD.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C02183644E003A116B /* coeffD.json */; };
-		A90853DB2183646A003A116B /* coeffG.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853BF2183644E003A116B /* coeffG.json */; };
-		A90853DC2183646A003A116B /* CoefficientMajorationBatiment.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853A92183644C003A116B /* CoefficientMajorationBatiment.json */; };
-		A90853DD2183646A003A116B /* Compositionfoyerstandard.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853A52183644C003A116B /* Compositionfoyerstandard.json */; };
-		A90853DE2183646A003A116B /* Conductivite.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C62183644E003A116B /* Conductivite.json */; };
-		A90853DF2183646A003A116B /* DataMaterial.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C32183644E003A116B /* DataMaterial.json */; };
-		A90853E02183646A003A116B /* Debitplomberie.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853B92183644D003A116B /* Debitplomberie.json */; };
-		A90853E12183646A003A116B /* DepartementZone.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853B42183644D003A116B /* DepartementZone.json */; };
-		A90853E22183646A003A116B /* DJU30.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853D421836450003A116B /* DJU30.json */; };
-		A90853E32183646A003A116B /* DJU2017CH.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853A12183644C003A116B /* DJU2017CH.json */; };
-		A90853E42183646A003A116B /* Dngaineeuroventcarrérectangulaire.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853AB2183644C003A116B /* Dngaineeuroventcarrérectangulaire.json */; };
-		A90853E52183646A003A116B /* Dngaineeuroventcirculaire.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A908539F2183644C003A116B /* Dngaineeuroventcirculaire.json */; };
-		A90853E62183646A003A116B /* EHPADcompositionECS.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C22183644E003A116B /* EHPADcompositionECS.json */; };
-		A90853E72183646A003A116B /* IsolantECS.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C12183644E003A116B /* IsolantECS.json */; };
-		A90853E82183646A003A116B /* LogementCompositionECS.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853A62183644C003A116B /* LogementCompositionECS.json */; };
-		A90853E92183646A003A116B /* MasseVolumiqueViscosite.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853B32183644D003A116B /* MasseVolumiqueViscosite.json */; };
-		A90853EA2183646A003A116B /* PerteChargeAccident.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853A72183644C003A116B /* PerteChargeAccident.json */; };
-		A90853EB2183646A003A116B /* PerteChargeUnite.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853AE2183644C003A116B /* PerteChargeUnite.json */; };
-		A90853EC2183646A003A116B /* RegimeDimensionnement.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853CF2183644F003A116B /* RegimeDimensionnement.json */; };
-		A90853ED2183646A003A116B /* RendementProduction.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C82183644E003A116B /* RendementProduction.json */; };
-		A90853EE2183646A003A116B /* Rugositeboussicaud20.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853D521836450003A116B /* Rugositeboussicaud20.json */; };
-		A90853EF2183646A003A116B /* Squalitel.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853C52183644E003A116B /* Squalitel.json */; };
-		A90853F02183646A003A116B /* TemperaturBaseExtZone.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853CD2183644F003A116B /* TemperaturBaseExtZone.json */; };
-		A90853F12183646A003A116B /* TUBES.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853D621836450003A116B /* TUBES.json */; };
-		A90853F22183646A003A116B /* TypeRadiateur.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A90853AC2183644C003A116B /* TypeRadiateur.json */; };
 		A92E1ADC21146B2200B3C475 /* RDnGaineCirculaire.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E1AD621146B2200B3C475 /* RDnGaineCirculaire.m */; };
 		A92E1ADD21146B2200B3C475 /* RDnGaineRectangulaire.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E1AD921146B2200B3C475 /* RDnGaineRectangulaire.m */; };
 		A92E1ADE21146B2200B3C475 /* RRugositeMaterial.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E1ADA21146B2200B3C475 /* RRugositeMaterial.m */; };
+		A944B48C2288CEBE003020CD /* RCoeffGSimplifie.m in Sources */ = {isa = PBXBuildFile; fileRef = A944B48B2288CEBE003020CD /* RCoeffGSimplifie.m */; };
+		A944B48E2288D181003020CD /* CoeffGSimplifie.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A944B48D2288D0DA003020CD /* CoeffGSimplifie.json */; };
+		A9AFEE07228AEAD500D9A412 /* CoeffGDeta.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9AFEE05228AEAC400D9A412 /* CoeffGDeta.json */; };
+		A9AFEE08228AEAD500D9A412 /* Vitrage.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9AFEE06228AEAC500D9A412 /* Vitrage.json */; };
+		A9AFEE0B228AEAFE00D9A412 /* RCoeffGDeta.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AFEE0A228AEAFE00D9A412 /* RCoeffGDeta.m */; };
+		A9AFEE0E228AEBE400D9A412 /* RVitrage.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AFEE0D228AEBE400D9A412 /* RVitrage.m */; };
+		A9FBFE0D22876E51002F7046 /* RDJUClim.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FBFE0C22876E51002F7046 /* RDJUClim.m */; };
+		A9FBFE0E22876F88002F7046 /* AdoucisseurDiametreDebit.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDF422876DF7002F7046 /* AdoucisseurDiametreDebit.json */; };
+		A9FBFE0F22876F88002F7046 /* CanalsationDebitMinMax.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0822876DF8002F7046 /* CanalsationDebitMinMax.json */; };
+		A9FBFE1022876F88002F7046 /* CapaciteResine.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDF922876DF8002F7046 /* CapaciteResine.json */; };
+		A9FBFE1122876F88002F7046 /* CoeffD.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0522876DF8002F7046 /* CoeffD.json */; };
+		A9FBFE1222876F88002F7046 /* CoeffG.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0322876DF8002F7046 /* CoeffG.json */; };
+		A9FBFE1322876F88002F7046 /* CoefficientMajorationBatiment.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDEF22876DF7002F7046 /* CoefficientMajorationBatiment.json */; };
+		A9FBFE1422876F88002F7046 /* CompositionFoyerStandard.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0A22876DF8002F7046 /* CompositionFoyerStandard.json */; };
+		A9FBFE1522876F88002F7046 /* Conductivite.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDF022876DF7002F7046 /* Conductivite.json */; };
+		A9FBFE1622876F88002F7046 /* DataMaterial.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0922876DF8002F7046 /* DataMaterial.json */; };
+		A9FBFE1722876F88002F7046 /* DebitPlomberie.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0722876DF8002F7046 /* DebitPlomberie.json */; };
+		A9FBFE1822876F88002F7046 /* DepartementZone.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDFB22876DF8002F7046 /* DepartementZone.json */; };
+		A9FBFE1922876F88002F7046 /* DJU.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDF822876DF8002F7046 /* DJU.json */; };
+		A9FBFE1A22876F88002F7046 /* DJUClim.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDF122876DF7002F7046 /* DJUClim.json */; };
+		A9FBFE1B22876F88002F7046 /* DnGaineEurovent_CarrreRctangulaire.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDF322876DF7002F7046 /* DnGaineEurovent_CarrreRctangulaire.json */; };
+		A9FBFE1C22876F88002F7046 /* DnGaineEurovent_Circulaire.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDFE22876DF8002F7046 /* DnGaineEurovent_Circulaire.json */; };
+		A9FBFE1D22876F88002F7046 /* EHPADcompositionECS.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDFA22876DF8002F7046 /* EHPADcompositionECS.json */; };
+		A9FBFE1E22876F88002F7046 /* IsolantECS.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDFD22876DF8002F7046 /* IsolantECS.json */; };
+		A9FBFE1F22876F88002F7046 /* LogementCompositionECS.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDFF22876DF8002F7046 /* LogementCompositionECS.json */; };
+		A9FBFE2022876F88002F7046 /* MasseVolumiqueViscosite.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0622876DF8002F7046 /* MasseVolumiqueViscosite.json */; };
+		A9FBFE2122876F88002F7046 /* PerteChargeAccident.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0022876DF8002F7046 /* PerteChargeAccident.json */; };
+		A9FBFE2222876F88002F7046 /* PerteChargeUnite.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDFC22876DF8002F7046 /* PerteChargeUnite.json */; };
+		A9FBFE2322876F88002F7046 /* RegimeDimensionnement.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0122876DF8002F7046 /* RegimeDimensionnement.json */; };
+		A9FBFE2422876F88002F7046 /* RendementProduction.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDF522876DF8002F7046 /* RendementProduction.json */; };
+		A9FBFE2522876F88002F7046 /* Rugositeboussicaud20.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDF622876DF8002F7046 /* Rugositeboussicaud20.json */; };
+		A9FBFE2622876F88002F7046 /* Squalitel.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0222876DF8002F7046 /* Squalitel.json */; };
+		A9FBFE2722876F88002F7046 /* TemperaturBaseExtZone.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0422876DF8002F7046 /* TemperaturBaseExtZone.json */; };
+		A9FBFE2822876F88002F7046 /* TUBES.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDF222876DF7002F7046 /* TUBES.json */; };
+		A9FBFE2922876F88002F7046 /* TypeRadiateur.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDF722876DF8002F7046 /* TypeRadiateur.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,34 +80,37 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				A90853D72183646A003A116B /* AdoucisseurDiametreDebit.json in CopyFiles */,
-				A90853D82183646A003A116B /* CanalsatinDebitMinMax.json in CopyFiles */,
-				A90853D92183646A003A116B /* CapaResine.json in CopyFiles */,
-				A90853DA2183646A003A116B /* coeffD.json in CopyFiles */,
-				A90853DB2183646A003A116B /* coeffG.json in CopyFiles */,
-				A90853DC2183646A003A116B /* CoefficientMajorationBatiment.json in CopyFiles */,
-				A90853DD2183646A003A116B /* Compositionfoyerstandard.json in CopyFiles */,
-				A90853DE2183646A003A116B /* Conductivite.json in CopyFiles */,
-				A90853DF2183646A003A116B /* DataMaterial.json in CopyFiles */,
-				A90853E02183646A003A116B /* Debitplomberie.json in CopyFiles */,
-				A90853E12183646A003A116B /* DepartementZone.json in CopyFiles */,
-				A90853E22183646A003A116B /* DJU30.json in CopyFiles */,
-				A90853E32183646A003A116B /* DJU2017CH.json in CopyFiles */,
-				A90853E42183646A003A116B /* Dngaineeuroventcarrérectangulaire.json in CopyFiles */,
-				A90853E52183646A003A116B /* Dngaineeuroventcirculaire.json in CopyFiles */,
-				A90853E62183646A003A116B /* EHPADcompositionECS.json in CopyFiles */,
-				A90853E72183646A003A116B /* IsolantECS.json in CopyFiles */,
-				A90853E82183646A003A116B /* LogementCompositionECS.json in CopyFiles */,
-				A90853E92183646A003A116B /* MasseVolumiqueViscosite.json in CopyFiles */,
-				A90853EA2183646A003A116B /* PerteChargeAccident.json in CopyFiles */,
-				A90853EB2183646A003A116B /* PerteChargeUnite.json in CopyFiles */,
-				A90853EC2183646A003A116B /* RegimeDimensionnement.json in CopyFiles */,
-				A90853ED2183646A003A116B /* RendementProduction.json in CopyFiles */,
-				A90853EE2183646A003A116B /* Rugositeboussicaud20.json in CopyFiles */,
-				A90853EF2183646A003A116B /* Squalitel.json in CopyFiles */,
-				A90853F02183646A003A116B /* TemperaturBaseExtZone.json in CopyFiles */,
-				A90853F12183646A003A116B /* TUBES.json in CopyFiles */,
-				A90853F22183646A003A116B /* TypeRadiateur.json in CopyFiles */,
+				A9AFEE07228AEAD500D9A412 /* CoeffGDeta.json in CopyFiles */,
+				A9AFEE08228AEAD500D9A412 /* Vitrage.json in CopyFiles */,
+				A944B48E2288D181003020CD /* CoeffGSimplifie.json in CopyFiles */,
+				A9FBFE0E22876F88002F7046 /* AdoucisseurDiametreDebit.json in CopyFiles */,
+				A9FBFE0F22876F88002F7046 /* CanalsationDebitMinMax.json in CopyFiles */,
+				A9FBFE1022876F88002F7046 /* CapaciteResine.json in CopyFiles */,
+				A9FBFE1122876F88002F7046 /* CoeffD.json in CopyFiles */,
+				A9FBFE1222876F88002F7046 /* CoeffG.json in CopyFiles */,
+				A9FBFE1322876F88002F7046 /* CoefficientMajorationBatiment.json in CopyFiles */,
+				A9FBFE1422876F88002F7046 /* CompositionFoyerStandard.json in CopyFiles */,
+				A9FBFE1522876F88002F7046 /* Conductivite.json in CopyFiles */,
+				A9FBFE1622876F88002F7046 /* DataMaterial.json in CopyFiles */,
+				A9FBFE1722876F88002F7046 /* DebitPlomberie.json in CopyFiles */,
+				A9FBFE1822876F88002F7046 /* DepartementZone.json in CopyFiles */,
+				A9FBFE1922876F88002F7046 /* DJU.json in CopyFiles */,
+				A9FBFE1A22876F88002F7046 /* DJUClim.json in CopyFiles */,
+				A9FBFE1B22876F88002F7046 /* DnGaineEurovent_CarrreRctangulaire.json in CopyFiles */,
+				A9FBFE1C22876F88002F7046 /* DnGaineEurovent_Circulaire.json in CopyFiles */,
+				A9FBFE1D22876F88002F7046 /* EHPADcompositionECS.json in CopyFiles */,
+				A9FBFE1E22876F88002F7046 /* IsolantECS.json in CopyFiles */,
+				A9FBFE1F22876F88002F7046 /* LogementCompositionECS.json in CopyFiles */,
+				A9FBFE2022876F88002F7046 /* MasseVolumiqueViscosite.json in CopyFiles */,
+				A9FBFE2122876F88002F7046 /* PerteChargeAccident.json in CopyFiles */,
+				A9FBFE2222876F88002F7046 /* PerteChargeUnite.json in CopyFiles */,
+				A9FBFE2322876F88002F7046 /* RegimeDimensionnement.json in CopyFiles */,
+				A9FBFE2422876F88002F7046 /* RendementProduction.json in CopyFiles */,
+				A9FBFE2522876F88002F7046 /* Rugositeboussicaud20.json in CopyFiles */,
+				A9FBFE2622876F88002F7046 /* Squalitel.json in CopyFiles */,
+				A9FBFE2722876F88002F7046 /* TemperaturBaseExtZone.json in CopyFiles */,
+				A9FBFE2822876F88002F7046 /* TUBES.json in CopyFiles */,
+				A9FBFE2922876F88002F7046 /* TypeRadiateur.json in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,41 +169,51 @@
 		96DD5A7C1FD439BB0027CD27 /* RLogementCompositionECS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLogementCompositionECS.m; sourceTree = "<group>"; };
 		96E301321FEBF5030080F2D1 /* RIsolantECS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIsolantECS.m; sourceTree = "<group>"; };
 		96E301331FEBF5030080F2D1 /* RIsolantECS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIsolantECS.h; sourceTree = "<group>"; };
-		A908539F2183644C003A116B /* Dngaineeuroventcirculaire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Dngaineeuroventcirculaire.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Gaineventilation/Gainecirculaire/Dngaineeuroventcirculaire.json"; sourceTree = "<group>"; };
-		A90853A12183644C003A116B /* DJU2017CH.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DJU2017CH.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/DegreJourUnifie/DJU2017CH.json"; sourceTree = "<group>"; };
-		A90853A52183644C003A116B /* Compositionfoyerstandard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Compositionfoyerstandard.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Compositionfoyerstandard/Compositionfoyerstandard.json"; sourceTree = "<group>"; };
-		A90853A62183644C003A116B /* LogementCompositionECS.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LogementCompositionECS.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/LogemementCompositionECS/LogementCompositionECS.json"; sourceTree = "<group>"; };
-		A90853A72183644C003A116B /* PerteChargeAccident.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PerteChargeAccident.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/PerteChargeAccident/PerteChargeAccident.json"; sourceTree = "<group>"; };
-		A90853A92183644C003A116B /* CoefficientMajorationBatiment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CoefficientMajorationBatiment.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/CoefficientMajorationBatiment/CoefficientMajorationBatiment.json"; sourceTree = "<group>"; };
-		A90853AB2183644C003A116B /* Dngaineeuroventcarrérectangulaire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Dngaineeuroventcarrérectangulaire.json"; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Gaineventilation/Gainerectangulaire/Dngaineeuroventcarrérectangulaire.json"; sourceTree = "<group>"; };
-		A90853AC2183644C003A116B /* TypeRadiateur.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TypeRadiateur.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/TypeRadiateur/TypeRadiateur.json"; sourceTree = "<group>"; };
-		A90853AE2183644C003A116B /* PerteChargeUnite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PerteChargeUnite.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/PerteDeChargeUniteCalcul/PerteChargeUnite.json"; sourceTree = "<group>"; };
-		A90853B32183644D003A116B /* MasseVolumiqueViscosite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MasseVolumiqueViscosite.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/MasseVolumiqueViscosite/MasseVolumiqueViscosite.json"; sourceTree = "<group>"; };
-		A90853B42183644D003A116B /* DepartementZone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DepartementZone.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/TemperatureBaseExtParZone/DepartementZone.json"; sourceTree = "<group>"; };
-		A90853B52183644D003A116B /* NE RIEN RENOMMER. A LIRE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "NE RIEN RENOMMER. A LIRE.txt"; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/NE RIEN RENOMMER. A LIRE.txt"; sourceTree = "<group>"; };
-		A90853B92183644D003A116B /* Debitplomberie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Debitplomberie.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Debitplomberie/Debitplomberie.json"; sourceTree = "<group>"; };
-		A90853BF2183644E003A116B /* coeffG.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = coeffG.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/CoefficientG/coeffG.json"; sourceTree = "<group>"; };
-		A90853C02183644E003A116B /* coeffD.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = coeffD.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/CoefficientD/coeffD.json"; sourceTree = "<group>"; };
-		A90853C12183644E003A116B /* IsolantECS.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = IsolantECS.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/IsolantECS/IsolantECS.json"; sourceTree = "<group>"; };
-		A90853C22183644E003A116B /* EHPADcompositionECS.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EHPADcompositionECS.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/EHPADcompositionECS/EHPADcompositionECS.json"; sourceTree = "<group>"; };
-		A90853C32183644E003A116B /* DataMaterial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DataMaterial.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/DataMaterial/DataMaterial.json"; sourceTree = "<group>"; };
-		A90853C52183644E003A116B /* Squalitel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Squalitel.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Squalitel/Squalitel.json"; sourceTree = "<group>"; };
-		A90853C62183644E003A116B /* Conductivite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Conductivite.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Conductivite/Conductivite.json"; sourceTree = "<group>"; };
-		A90853C82183644E003A116B /* RendementProduction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = RendementProduction.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/RendementProduction/RendementProduction.json"; sourceTree = "<group>"; };
-		A90853C92183644F003A116B /* CanalsatinDebitMinMax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CanalsatinDebitMinMax.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/CanalisationDebitMinMax/CanalsatinDebitMinMax.json"; sourceTree = "<group>"; };
-		A90853CD2183644F003A116B /* TemperaturBaseExtZone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TemperaturBaseExtZone.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/TemperatureBaseExtParZone/TemperaturBaseExtZone.json"; sourceTree = "<group>"; };
-		A90853CE2183644F003A116B /* AdoucisseurDiametreDebit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = AdoucisseurDiametreDebit.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/AdoucisseurDiametre/AdoucisseurDiametreDebit.json"; sourceTree = "<group>"; };
-		A90853CF2183644F003A116B /* RegimeDimensionnement.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = RegimeDimensionnement.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/RegimeDimensionnement/RegimeDimensionnement.json"; sourceTree = "<group>"; };
-		A90853D221836450003A116B /* CapaResine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CapaResine.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/capaciteResine/CapaResine.json"; sourceTree = "<group>"; };
-		A90853D421836450003A116B /* DJU30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DJU30.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/DegreJourUnifie/DJU30.json"; sourceTree = "<group>"; };
-		A90853D521836450003A116B /* Rugositeboussicaud20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Rugositeboussicaud20.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Rugosité/Rugositeboussicaud20.json"; sourceTree = "<group>"; };
-		A90853D621836450003A116B /* TUBES.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TUBES.json; path = "../../../Google Drive/BatiKal/Technical Specification/DATABASE/Tubes/TUBES.json"; sourceTree = "<group>"; };
 		A92E1AD621146B2200B3C475 /* RDnGaineCirculaire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDnGaineCirculaire.m; sourceTree = "<group>"; };
 		A92E1AD721146B2200B3C475 /* RDnGaineCirculaire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDnGaineCirculaire.h; sourceTree = "<group>"; };
 		A92E1AD821146B2200B3C475 /* RRugositeMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRugositeMaterial.h; sourceTree = "<group>"; };
 		A92E1AD921146B2200B3C475 /* RDnGaineRectangulaire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDnGaineRectangulaire.m; sourceTree = "<group>"; };
 		A92E1ADA21146B2200B3C475 /* RRugositeMaterial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRugositeMaterial.m; sourceTree = "<group>"; };
 		A92E1ADB21146B2200B3C475 /* RDnGaineRectangulaire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDnGaineRectangulaire.h; sourceTree = "<group>"; };
+		A944B48A2288CEBE003020CD /* RCoeffGSimplifie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCoeffGSimplifie.h; sourceTree = "<group>"; };
+		A944B48B2288CEBE003020CD /* RCoeffGSimplifie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCoeffGSimplifie.m; sourceTree = "<group>"; };
+		A944B48D2288D0DA003020CD /* CoeffGSimplifie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CoeffGSimplifie.json; path = ../../json/CoeffGSimplifie.json; sourceTree = "<group>"; };
+		A9AFEE05228AEAC400D9A412 /* CoeffGDeta.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CoeffGDeta.json; path = ../../json/CoeffGDeta.json; sourceTree = "<group>"; };
+		A9AFEE06228AEAC500D9A412 /* Vitrage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Vitrage.json; path = ../../json/Vitrage.json; sourceTree = "<group>"; };
+		A9AFEE09228AEAFD00D9A412 /* RCoeffGDeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCoeffGDeta.h; sourceTree = "<group>"; };
+		A9AFEE0A228AEAFE00D9A412 /* RCoeffGDeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCoeffGDeta.m; sourceTree = "<group>"; };
+		A9AFEE0C228AEBE400D9A412 /* RVitrage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVitrage.h; sourceTree = "<group>"; };
+		A9AFEE0D228AEBE400D9A412 /* RVitrage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVitrage.m; sourceTree = "<group>"; };
+		A9FBFDEF22876DF7002F7046 /* CoefficientMajorationBatiment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CoefficientMajorationBatiment.json; path = ../../json/CoefficientMajorationBatiment.json; sourceTree = "<group>"; };
+		A9FBFDF022876DF7002F7046 /* Conductivite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Conductivite.json; path = ../../json/Conductivite.json; sourceTree = "<group>"; };
+		A9FBFDF122876DF7002F7046 /* DJUClim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DJUClim.json; path = ../../json/DJUClim.json; sourceTree = "<group>"; };
+		A9FBFDF222876DF7002F7046 /* TUBES.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TUBES.json; path = ../../json/TUBES.json; sourceTree = "<group>"; };
+		A9FBFDF322876DF7002F7046 /* DnGaineEurovent_CarrreRctangulaire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DnGaineEurovent_CarrreRctangulaire.json; path = ../../json/DnGaineEurovent_CarrreRctangulaire.json; sourceTree = "<group>"; };
+		A9FBFDF422876DF7002F7046 /* AdoucisseurDiametreDebit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = AdoucisseurDiametreDebit.json; path = ../../json/AdoucisseurDiametreDebit.json; sourceTree = "<group>"; };
+		A9FBFDF522876DF8002F7046 /* RendementProduction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = RendementProduction.json; path = ../../json/RendementProduction.json; sourceTree = "<group>"; };
+		A9FBFDF622876DF8002F7046 /* Rugositeboussicaud20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Rugositeboussicaud20.json; path = ../../json/Rugositeboussicaud20.json; sourceTree = "<group>"; };
+		A9FBFDF722876DF8002F7046 /* TypeRadiateur.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TypeRadiateur.json; path = ../../json/TypeRadiateur.json; sourceTree = "<group>"; };
+		A9FBFDF822876DF8002F7046 /* DJU.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DJU.json; path = ../../json/DJU.json; sourceTree = "<group>"; };
+		A9FBFDF922876DF8002F7046 /* CapaciteResine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CapaciteResine.json; path = ../../json/CapaciteResine.json; sourceTree = "<group>"; };
+		A9FBFDFA22876DF8002F7046 /* EHPADcompositionECS.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EHPADcompositionECS.json; path = ../../json/EHPADcompositionECS.json; sourceTree = "<group>"; };
+		A9FBFDFB22876DF8002F7046 /* DepartementZone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DepartementZone.json; path = ../../json/DepartementZone.json; sourceTree = "<group>"; };
+		A9FBFDFC22876DF8002F7046 /* PerteChargeUnite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PerteChargeUnite.json; path = ../../json/PerteChargeUnite.json; sourceTree = "<group>"; };
+		A9FBFDFD22876DF8002F7046 /* IsolantECS.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = IsolantECS.json; path = ../../json/IsolantECS.json; sourceTree = "<group>"; };
+		A9FBFDFE22876DF8002F7046 /* DnGaineEurovent_Circulaire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DnGaineEurovent_Circulaire.json; path = ../../json/DnGaineEurovent_Circulaire.json; sourceTree = "<group>"; };
+		A9FBFDFF22876DF8002F7046 /* LogementCompositionECS.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LogementCompositionECS.json; path = ../../json/LogementCompositionECS.json; sourceTree = "<group>"; };
+		A9FBFE0022876DF8002F7046 /* PerteChargeAccident.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PerteChargeAccident.json; path = ../../json/PerteChargeAccident.json; sourceTree = "<group>"; };
+		A9FBFE0122876DF8002F7046 /* RegimeDimensionnement.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = RegimeDimensionnement.json; path = ../../json/RegimeDimensionnement.json; sourceTree = "<group>"; };
+		A9FBFE0222876DF8002F7046 /* Squalitel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Squalitel.json; path = ../../json/Squalitel.json; sourceTree = "<group>"; };
+		A9FBFE0322876DF8002F7046 /* CoeffG.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CoeffG.json; path = ../../json/CoeffG.json; sourceTree = "<group>"; };
+		A9FBFE0422876DF8002F7046 /* TemperaturBaseExtZone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TemperaturBaseExtZone.json; path = ../../json/TemperaturBaseExtZone.json; sourceTree = "<group>"; };
+		A9FBFE0522876DF8002F7046 /* CoeffD.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CoeffD.json; path = ../../json/CoeffD.json; sourceTree = "<group>"; };
+		A9FBFE0622876DF8002F7046 /* MasseVolumiqueViscosite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MasseVolumiqueViscosite.json; path = ../../json/MasseVolumiqueViscosite.json; sourceTree = "<group>"; };
+		A9FBFE0722876DF8002F7046 /* DebitPlomberie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DebitPlomberie.json; path = ../../json/DebitPlomberie.json; sourceTree = "<group>"; };
+		A9FBFE0822876DF8002F7046 /* CanalsationDebitMinMax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CanalsationDebitMinMax.json; path = ../../json/CanalsationDebitMinMax.json; sourceTree = "<group>"; };
+		A9FBFE0922876DF8002F7046 /* DataMaterial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DataMaterial.json; path = ../../json/DataMaterial.json; sourceTree = "<group>"; };
+		A9FBFE0A22876DF8002F7046 /* CompositionFoyerStandard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CompositionFoyerStandard.json; path = ../../json/CompositionFoyerStandard.json; sourceTree = "<group>"; };
+		A9FBFE0B22876E51002F7046 /* RDJUClim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDJUClim.h; sourceTree = "<group>"; };
+		A9FBFE0C22876E51002F7046 /* RDJUClim.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDJUClim.m; sourceTree = "<group>"; };
 		E44BACE5805F99061A48154F /* Pods-BaticalRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaticalRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaticalRealm/Pods-BaticalRealm.release.xcconfig"; sourceTree = "<group>"; };
 		ECD5C90C719C135072D6ABAA /* libPods-BaticalRealm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaticalRealm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -242,35 +262,37 @@
 		055332F01CA0109E00BABFB7 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				A90853CE2183644F003A116B /* AdoucisseurDiametreDebit.json */,
-				A90853C92183644F003A116B /* CanalsatinDebitMinMax.json */,
-				A90853D221836450003A116B /* CapaResine.json */,
-				A90853C02183644E003A116B /* coeffD.json */,
-				A90853BF2183644E003A116B /* coeffG.json */,
-				A90853A92183644C003A116B /* CoefficientMajorationBatiment.json */,
-				A90853A52183644C003A116B /* Compositionfoyerstandard.json */,
-				A90853C62183644E003A116B /* Conductivite.json */,
-				A90853C32183644E003A116B /* DataMaterial.json */,
-				A90853B92183644D003A116B /* Debitplomberie.json */,
-				A90853B42183644D003A116B /* DepartementZone.json */,
-				A90853D421836450003A116B /* DJU30.json */,
-				A90853A12183644C003A116B /* DJU2017CH.json */,
-				A90853AB2183644C003A116B /* Dngaineeuroventcarrérectangulaire.json */,
-				A908539F2183644C003A116B /* Dngaineeuroventcirculaire.json */,
-				A90853C22183644E003A116B /* EHPADcompositionECS.json */,
-				A90853C12183644E003A116B /* IsolantECS.json */,
-				A90853A62183644C003A116B /* LogementCompositionECS.json */,
-				A90853B32183644D003A116B /* MasseVolumiqueViscosite.json */,
-				A90853B52183644D003A116B /* NE RIEN RENOMMER. A LIRE.txt */,
-				A90853A72183644C003A116B /* PerteChargeAccident.json */,
-				A90853AE2183644C003A116B /* PerteChargeUnite.json */,
-				A90853CF2183644F003A116B /* RegimeDimensionnement.json */,
-				A90853C82183644E003A116B /* RendementProduction.json */,
-				A90853D521836450003A116B /* Rugositeboussicaud20.json */,
-				A90853C52183644E003A116B /* Squalitel.json */,
-				A90853CD2183644F003A116B /* TemperaturBaseExtZone.json */,
-				A90853D621836450003A116B /* TUBES.json */,
-				A90853AC2183644C003A116B /* TypeRadiateur.json */,
+				A9AFEE05228AEAC400D9A412 /* CoeffGDeta.json */,
+				A9AFEE06228AEAC500D9A412 /* Vitrage.json */,
+				A9FBFDF422876DF7002F7046 /* AdoucisseurDiametreDebit.json */,
+				A9FBFE0822876DF8002F7046 /* CanalsationDebitMinMax.json */,
+				A9FBFDF922876DF8002F7046 /* CapaciteResine.json */,
+				A9FBFE0522876DF8002F7046 /* CoeffD.json */,
+				A9FBFE0322876DF8002F7046 /* CoeffG.json */,
+				A944B48D2288D0DA003020CD /* CoeffGSimplifie.json */,
+				A9FBFDEF22876DF7002F7046 /* CoefficientMajorationBatiment.json */,
+				A9FBFE0A22876DF8002F7046 /* CompositionFoyerStandard.json */,
+				A9FBFDF022876DF7002F7046 /* Conductivite.json */,
+				A9FBFE0922876DF8002F7046 /* DataMaterial.json */,
+				A9FBFE0722876DF8002F7046 /* DebitPlomberie.json */,
+				A9FBFDFB22876DF8002F7046 /* DepartementZone.json */,
+				A9FBFDF822876DF8002F7046 /* DJU.json */,
+				A9FBFDF122876DF7002F7046 /* DJUClim.json */,
+				A9FBFDF322876DF7002F7046 /* DnGaineEurovent_CarrreRctangulaire.json */,
+				A9FBFDFE22876DF8002F7046 /* DnGaineEurovent_Circulaire.json */,
+				A9FBFDFA22876DF8002F7046 /* EHPADcompositionECS.json */,
+				A9FBFDFD22876DF8002F7046 /* IsolantECS.json */,
+				A9FBFDFF22876DF8002F7046 /* LogementCompositionECS.json */,
+				A9FBFE0622876DF8002F7046 /* MasseVolumiqueViscosite.json */,
+				A9FBFE0022876DF8002F7046 /* PerteChargeAccident.json */,
+				A9FBFDFC22876DF8002F7046 /* PerteChargeUnite.json */,
+				A9FBFE0122876DF8002F7046 /* RegimeDimensionnement.json */,
+				A9FBFDF522876DF8002F7046 /* RendementProduction.json */,
+				A9FBFDF622876DF8002F7046 /* Rugositeboussicaud20.json */,
+				A9FBFE0222876DF8002F7046 /* Squalitel.json */,
+				A9FBFE0422876DF8002F7046 /* TemperaturBaseExtZone.json */,
+				A9FBFDF222876DF7002F7046 /* TUBES.json */,
+				A9FBFDF722876DF8002F7046 /* TypeRadiateur.json */,
 			);
 			name = JSON;
 			sourceTree = "<group>";
@@ -284,6 +306,12 @@
 				96DCA2D81FE15FC900B8E800 /* RCanalisationDebitMinMax.m */,
 				96AEF32A1FD441FF00D57830 /* RCapaResine.h */,
 				96AEF32C1FD441FF00D57830 /* RCapaResine.m */,
+				A9AFEE09228AEAFD00D9A412 /* RCoeffGDeta.h */,
+				A9AFEE0A228AEAFE00D9A412 /* RCoeffGDeta.m */,
+				A9AFEE0C228AEBE400D9A412 /* RVitrage.h */,
+				A9AFEE0D228AEBE400D9A412 /* RVitrage.m */,
+				A944B48A2288CEBE003020CD /* RCoeffGSimplifie.h */,
+				A944B48B2288CEBE003020CD /* RCoeffGSimplifie.m */,
 				05FBE3E81D2D4A38007B42F8 /* RCoefficientD.h */,
 				05FBE3E91D2D4A38007B42F8 /* RCoefficientD.m */,
 				057DF3C81E46821A006E443C /* RCoefficientG.h */,
@@ -302,6 +330,8 @@
 				05FBE3E51D2D2B8F007B42F8 /* RDegreJourUnifie.m */,
 				055F3F051CAE6C1C007B3664 /* RDepartementTemperatureExt.h */,
 				055F3F061CAE6C1C007B3664 /* RDepartementTemperatureExt.m */,
+				A9FBFE0B22876E51002F7046 /* RDJUClim.h */,
+				A9FBFE0C22876E51002F7046 /* RDJUClim.m */,
 				A92E1AD721146B2200B3C475 /* RDnGaineCirculaire.h */,
 				A92E1AD621146B2200B3C475 /* RDnGaineCirculaire.m */,
 				A92E1ADB21146B2200B3C475 /* RDnGaineRectangulaire.h */,
@@ -456,10 +486,13 @@
 				96AEF3301FD4420000D57830 /* RCapaResine.m in Sources */,
 				05B20F1A1CC6AB0200F94E4D /* RTypeRadiateur.m in Sources */,
 				96DD5A7D1FD439BB0027CD27 /* RLogementCompositionECS.m in Sources */,
+				A9AFEE0E228AEBE400D9A412 /* RVitrage.m in Sources */,
 				05FBE3E61D2D2B8F007B42F8 /* RDegreJourUnifie.m in Sources */,
 				05EFCD9F1DCCB56F00FCF034 /* RCoefficientMajorationBatiment.m in Sources */,
 				A92E1ADC21146B2200B3C475 /* RDnGaineCirculaire.m in Sources */,
 				96DCA2DA1FE15FC900B8E800 /* RCanalisationDebitMinMax.m in Sources */,
+				A9AFEE0B228AEAFE00D9A412 /* RCoeffGDeta.m in Sources */,
+				A944B48C2288CEBE003020CD /* RCoeffGSimplifie.m in Sources */,
 				057DF3CA1E46821A006E443C /* RCoefficientG.m in Sources */,
 				055F3F091CAE6C1C007B3664 /* RDepartementTemperatureExt.m in Sources */,
 				96AEF32F1FD4420000D57830 /* RAdoucisseurDiametreDebit.m in Sources */,
@@ -469,6 +502,7 @@
 				055F3EDF1CADBED0007B3664 /* RMasseVolumiqueViscosite.m in Sources */,
 				9633BF1A1FDBF9A400996FE7 /* RDebitPlomberie.m in Sources */,
 				05B20F191CC6AB0200F94E4D /* RRegimeDimensionnement.m in Sources */,
+				A9FBFE0D22876E51002F7046 /* RDJUClim.m in Sources */,
 				9633BF0E1FDAFAD300996FE7 /* RCompostionFoyerStandard.m in Sources */,
 				054DBD651E53670B00503892 /* RRendementProduction.m in Sources */,
 				051DA1BC1CAF26C40065AF5C /* RPerteChargeUniteCalcul.m in Sources */,

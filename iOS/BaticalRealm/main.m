@@ -35,6 +35,9 @@
 #import "RDnGaineCirculaire.h"
 #import "RDnGaineRectangulaire.h"
 #import "RRugositeMaterial.h"
+#import "RCoeffGSimplifie.h"
+#import "RVitrage.h"
+#import "RCoeffGDeta.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -48,9 +51,9 @@ int main(int argc, const char * argv[]) {
         NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
         
         NSString *documentsDirectory = [paths objectAtIndex:0];
-        NSString *destinationFile = @"/Users/sebastienhecart/batikal/BatiKalRn-v4.realm";
-        NSString *iosRN = @"/Users/sebastienhecart/batikal/Batikal/ios/BatiKalRn-v4.realm";
-        NSString *androidRN = @"/Users/sebastienhecart/batikal/Batikal/android/app/src/main/assets/BatiKalRn-v4.realm";
+        NSString *destinationFile = @"/Users/sebastienhecart/batikal/BatiKalRn-v5.realm";
+        NSString *iosRN = @"/Users/sebastienhecart/batikal/Batikal/ios/BatiKalRn-v5.realm";
+        NSString *androidRN = @"/Users/sebastienhecart/batikal/Batikal/android/app/src/main/assets/BatiKalRn-v5.realm";
         
         //NSString *reactNativedestinationFile = @"/Users/shecart/Documents/personel/BaticalReactNative/DataModel/RealmObject/Batical.realm";
         NSString *yourArtPath = [documentsDirectory stringByAppendingPathComponent:@"Batical.realm"];
@@ -268,29 +271,30 @@ int main(int argc, const char * argv[]) {
          *********************************************************************************
          ********************************* DJU ******************************
          ********************************************************************************/
-        dataPath = [[NSBundle mainBundle] pathForResource:@"DJU30" ofType:@"json"];
+        dataPath = [[NSBundle mainBundle] pathForResource:@"DJU" ofType:@"json"];
         etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
         [realm beginWriteTransaction];
         
         for (NSDictionary *conDict in etbs) {
-            RDegreJourUnifie *rcon= [[RDegreJourUnifie alloc] initWithDictionary:conDict];
-            [realm addObject:rcon];
-        }
-        //[realm commitWriteTransaction];
-        
-        /*********************************************************************************
-         *********************************************************************************
-         ********************************* DJU2017CH ******************************
-         ********************************************************************************/
-        dataPath = [[NSBundle mainBundle] pathForResource:@"DJU2017CH" ofType:@"json"];
-        etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
-       // [realm beginWriteTransaction];
-        
-        for (NSDictionary *conDict in etbs) {
+            
             RDegreJourUnifie *rcon= [[RDegreJourUnifie alloc] initWithDictionary:conDict];
             [realm addObject:rcon];
         }
         [realm commitWriteTransaction];
+        
+//        /*********************************************************************************
+//         *********************************************************************************
+//         ********************************* DJU2017CH ******************************
+//         ********************************************************************************/
+//        dataPath = [[NSBundle mainBundle] pathForResource:@"DJU2017CH" ofType:@"json"];
+//        etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
+//       // [realm beginWriteTransaction];
+//
+//        for (NSDictionary *conDict in etbs) {
+//            RDegreJourUnifie *rcon= [[RDegreJourUnifie alloc] initWithDictionary:conDict];
+//            [realm addObject:rcon];
+//        }
+//        [realm commitWriteTransaction];
 
         
 
@@ -298,7 +302,7 @@ int main(int argc, const char * argv[]) {
          *********************************************************************************
          ********************************* RCoefficientD ******************************
          ********************************************************************************/
-        dataPath = [[NSBundle mainBundle] pathForResource:@"coeffD" ofType:@"json"];
+        dataPath = [[NSBundle mainBundle] pathForResource:@"CoeffD" ofType:@"json"];
         etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
         [realm beginWriteTransaction];
         
@@ -312,7 +316,7 @@ int main(int argc, const char * argv[]) {
          *********************************************************************************
          ********************************* RCoefficientG ******************************
          ********************************************************************************/
-        dataPath = [[NSBundle mainBundle] pathForResource:@"coeffG" ofType:@"json"];
+        dataPath = [[NSBundle mainBundle] pathForResource:@"CoeffG" ofType:@"json"];
         etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
         [realm beginWriteTransaction];
         
@@ -370,7 +374,7 @@ int main(int argc, const char * argv[]) {
          *********************************************************************************
          ********************************* RCapaResine ******************************
          ********************************************************************************/
-        dataPath = [[NSBundle mainBundle] pathForResource:@"CapaResine" ofType:@"json"];
+        dataPath = [[NSBundle mainBundle] pathForResource:@"CapaciteResine" ofType:@"json"];
         etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
         [realm beginWriteTransaction];
         
@@ -384,7 +388,7 @@ int main(int argc, const char * argv[]) {
          *********************************************************************************
          ********************************* RCompostionFoyerStandard ******************************
          ********************************************************************************/
-        dataPath = [[NSBundle mainBundle] pathForResource:@"Compositionfoyerstandard" ofType:@"json"];
+        dataPath = [[NSBundle mainBundle] pathForResource:@"CompositionFoyerStandard" ofType:@"json"];
         etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
         [realm beginWriteTransaction];
         
@@ -428,7 +432,7 @@ int main(int argc, const char * argv[]) {
          *********************************************************************************
          ********************************* RDEbtPlo ******************************
          ********************************************************************************/
-        dataPath = [[NSBundle mainBundle] pathForResource:@"Debitplomberie" ofType:@"json"];
+        dataPath = [[NSBundle mainBundle] pathForResource:@"DebitPlomberie" ofType:@"json"];
         etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
         [realm beginWriteTransaction];
         
@@ -443,7 +447,7 @@ int main(int argc, const char * argv[]) {
          *********************************************************************************
          ********************************* CanalsatinDebitMinMax ******************************
          ********************************************************************************/
-        dataPath = [[NSBundle mainBundle] pathForResource:@"CanalsatinDebitMinMax" ofType:@"json"];
+        dataPath = [[NSBundle mainBundle] pathForResource:@"CanalsationDebitMinMax" ofType:@"json"];
         etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
         [realm beginWriteTransaction];
         
@@ -471,7 +475,7 @@ int main(int argc, const char * argv[]) {
          *********************************************************************************
          *********************************#import "RDnGaineCirculaire.h" ******************************
          ********************************************************************************/
-        dataPath = [[NSBundle mainBundle] pathForResource:@"Dngaineeuroventcirculaire" ofType:@"json"];
+        dataPath = [[NSBundle mainBundle] pathForResource:@"DnGaineEurovent_Circulaire" ofType:@"json"];
         etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
         [realm beginWriteTransaction];
         
@@ -484,7 +488,7 @@ int main(int argc, const char * argv[]) {
          *********************************************************************************
           *********************************#import "RDnGaineRectangulaire.h" ******************************
           ********************************************************************************/
-        dataPath = [[NSBundle mainBundle] pathForResource:@"Dngaineeuroventcarrérectangulaire" ofType:@"json"];
+        dataPath = [[NSBundle mainBundle] pathForResource:@"DnGaineEurovent_CarrreRctangulaire" ofType:@"json"];
         etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
         [realm beginWriteTransaction];
         
@@ -506,7 +510,47 @@ int main(int argc, const char * argv[]) {
             [realm addObject:rcon];
         }
         [realm commitWriteTransaction];
+        /*********************************************************************************
+         *********************************************************************************
+         *********************************#import "RCoeffGDeta.h" ******************************
+         ********************************************************************************/
+        dataPath = [[NSBundle mainBundle] pathForResource:@"CoeffGDeta" ofType:@"json"];
+        etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
+        [realm beginWriteTransaction];
         
+        for (NSDictionary *conDict in etbs) {
+            RCoeffGDeta *rcon= [[RCoeffGDeta alloc] initWithDictionary:conDict];
+            [realm addObject:rcon];
+        }
+        [realm commitWriteTransaction];
+        /*********************************************************************************
+         *********************************************************************************
+         *********************************#import "RVitrage" ******************************
+         ********************************************************************************/
+        dataPath = [[NSBundle mainBundle] pathForResource:@"Vitrage" ofType:@"json"];
+        etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
+        [realm beginWriteTransaction];
+        
+        for (NSDictionary *conDict in etbs) {
+            RVitrage *rcon= [[RVitrage alloc] initWithDictionary:conDict];
+            [realm addObject:rcon];
+        }
+        [realm commitWriteTransaction];
+        
+        
+        /*********************************************************************************
+         *********************************************************************************
+         *********************************#import "RCOEFFGSIMPLIFIE" ******************************
+         ********************************************************************************/
+        dataPath = [[NSBundle mainBundle] pathForResource:@"CoeffGSimplifie" ofType:@"json"];
+        etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
+        [realm beginWriteTransaction];
+        
+        for (NSDictionary *conDict in etbs) {
+            RCoeffGSimplifie *rcon= [[RCoeffGSimplifie alloc] initWithDictionary:conDict];
+            [realm addObject:rcon];
+        }
+        [realm commitWriteTransaction];
         //delete destination file
         success = [fileManager removeItemAtPath:destinationFile error:&error];
         if (success) {

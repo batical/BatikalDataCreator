@@ -1,15 +1,15 @@
 //
-//	RDegreJourUnifie.h
+//    RDegreJourUnifie.h
 //
-//	Create by Sébastien Hecart on 5/7/2016
-//	Copyright © 2016. All rights reserved.
+//    Create by Sébastien Hecart on 5/7/2016
+//    Copyright © 2016. All rights reserved.
 //
 
-//	Model file Generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
+//    Model file Generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
 
 #import <Realm/Realm.h>
 
-@interface RDegreJourUnifie : RLMObject
+@interface RDJUClim : RLMObject
 @property NSString *uuid;
 @property (nonatomic, assign) double m1;
 @property (nonatomic, assign) double m10;

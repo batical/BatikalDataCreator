@@ -1,17 +1,17 @@
 //
-//	RDegreJourUnifie.m
+//    RDJUClim
 //
-//	Create by Sébastien Hecart on 5/7/2016
-//	Copyright © 2016. All rights reserved.
-//	Model file Generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
+//    Create by Sébastien Hecart on 5/7/2016
+//    Copyright © 2016. All rights reserved.
+//    Model file Generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
 
 
 
-#import "RDegreJourUnifie.h"
+#import "RDJUClim.h"
 
-@interface RDegreJourUnifie ()
+@interface RDJUClim ()
 @end
-@implementation RDegreJourUnifie
+@implementation RDJUClim
 
 
 + (NSString *)primaryKey{
