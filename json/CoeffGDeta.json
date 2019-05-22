@@ -4,13 +4,13 @@
   { "uuid": "MEXT2", "name": "Béton", "lambda": 1.75, "type": "mur" },
   {
     "uuid": "MEXT3",
-    "name": "Briq. Creu. Class.",
+    "name": "Brique Creuse Classique",
     "lambda": 0.5,
     "type": "mur"
   },
   {
     "uuid": "MEXT4",
-    "name": "Briq. Creu. Alvéol.",
+    "name": "Brique Creuse Alvéolé",
     "lambda": 0.37,
     "type": "mur"
   },
@@ -162,10 +162,10 @@
   { "uuid": "PLAFOND0", "name": "Plâtre", "lambda": 0.35, "type": "plafond" },
   { "uuid": "PLAFOND1", "name": "Béton", "lambda": 1.75, "type": "plafond" },
   { "uuid": "PLAFOND2", "name": "Tuile", "lambda": 1.15, "type": "plafond" },
-  { "uuid": "PLAFOND3", "name": "Ardoise", "lambda": 2.0, "type": "plafond" },
+  { "uuid": "PLAFOND3", "name": "Ardoise", "lambda": 2, "type": "plafond" },
   {
     "uuid": "PLAFOND4",
-    "name": "plancher LEADER",
+    "name": "Plancher LEADER",
     "lambda": 4.6,
     "type": "plafond"
   },
@@ -196,25 +196,25 @@
   {
     "uuid": "ilosant0",
     "name": "Polyuréthane",
-    "lambda": 0.03,
+    "lambda": 0.025,
     "type": "isolant"
   },
   {
     "uuid": "ilosant1",
-    "name": "Polyst. Expansé",
+    "name": "Polystyrène Expansé",
     "lambda": 0.04,
     "type": "isolant"
   },
   {
     "uuid": "ilosant2",
-    "name": "Polyst. Extrudé",
+    "name": "Polystyrène Extrudé",
     "lambda": 0.03,
     "type": "isolant"
   },
   {
     "uuid": "ilosant3",
     "name": "Vermiculite",
-    "lambda": 0.07,
+    "lambda": 0.066,
     "type": "isolant"
   },
   {
@@ -237,7 +237,7 @@
   },
   {
     "uuid": "ilosant7",
-    "name": "mousse polyu. Sol",
+    "name": "Mousse polyuréthane Sol",
     "lambda": 0.02,
     "type": "isolant"
   },
@@ -268,7 +268,7 @@
   {
     "uuid": "ilosant12",
     "name": "Polystyrène extrudé",
-    "lambda": 0.03,
+    "lambda": 0.029,
     "type": "isolant"
   },
   {
@@ -287,7 +287,7 @@
   {
     "uuid": "ilosant16",
     "name": "Verre cellulaire Foamglass",
-    "lambda": 0.04,
+    "lambda": 0.042,
     "type": "isolant"
   },
   {
@@ -299,7 +299,7 @@
   {
     "uuid": "ilosant18",
     "name": "Verre cellulaire (plaque)",
-    "lambda": 0.06,
+    "lambda": 0.057,
     "type": "isolant"
   },
   {
@@ -397,7 +397,7 @@
   {
     "uuid": "Plancher6",
     "name": "Dalle béton coulé",
-    "lambda": 2.0,
+    "lambda": 2,
     "type": "plancher"
   },
   {
@@ -485,13 +485,13 @@
     "type": "plancher"
   },
   { "uuid": "Porte0", "name": "Bois pleine", "lambda": 3.5, "type": "porte" },
-  { "uuid": "Porte1", "name": "Bois isolante", "lambda": 1.0, "type": "porte" },
-  { "uuid": "Porte2", "name": "PVC", "lambda": 1.0, "type": "porte" },
+  { "uuid": "Porte1", "name": "Bois isolante", "lambda": 1, "type": "porte" },
+  { "uuid": "Porte2", "name": "PVC", "lambda": 1, "type": "porte" },
   { "uuid": "Porte3", "name": "Aluminium ", "lambda": 1.1, "type": "porte" },
   {
     "uuid": "Ventil0",
     "name": "Ventilation naturelle",
-    "lambda": 1.0,
+    "lambda": 1,
     "type": "ventilation"
   },
   {

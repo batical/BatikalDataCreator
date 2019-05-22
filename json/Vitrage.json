@@ -1,15 +1,15 @@
 [
   {
     "uuid": "Vitrage0",
-    "name": "simple vitrage bois",
+    "name": "Simple vitrage bois",
     "menuiserie": "Bois",
-    "u": 4.0,
+    "u": 4,
     "facteur_encadrement": 0.55,
     "facteur_solaire": 0.87
   },
   {
     "uuid": "Vitrage1",
-    "name": "simple vitrage métal",
+    "name": "Simple vitrage métal",
     "menuiserie": "Métal",
     "u": 6.15,
     "facteur_encadrement": 0.75,
@@ -17,7 +17,7 @@
   },
   {
     "uuid": "Vitrage2",
-    "name": "simple vitrage PVC",
+    "name": "Simple vitrage PVC",
     "menuiserie": "PVC",
     "u": 3.8,
     "facteur_encadrement": 0.6,
@@ -75,7 +75,7 @@
     "uuid": "Vitrage9",
     "name": "Pavé de verre bois",
     "menuiserie": "Bois",
-    "u": 3.0,
+    "u": 3,
     "facteur_encadrement": 0.95,
     "facteur_solaire": 0.65
   },
@@ -83,7 +83,7 @@
     "uuid": "Vitrage10",
     "name": "Pavé de verre métal",
     "menuiserie": "Métal",
-    "u": 3.0,
+    "u": 3,
     "facteur_encadrement": 0.95,
     "facteur_solaire": 0.65
   },
@@ -91,7 +91,7 @@
     "uuid": "Vitrage11",
     "name": "Pavé de verre PVC",
     "menuiserie": "PVC",
-    "u": 3.0,
+    "u": 3,
     "facteur_encadrement": 0.95,
     "facteur_solaire": 0.65
   },

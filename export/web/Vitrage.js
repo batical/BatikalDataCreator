@@ -20,9 +20,9 @@ export default  [
 {value : "Vitrage11",
          label :  "Pavé de verre PVC"},
 {value : "Vitrage0",
-         label :  "simple vitrage bois"},
+         label :  "Simple vitrage bois"},
 {value : "Vitrage1",
-         label :  "simple vitrage métal"},
+         label :  "Simple vitrage métal"},
 {value : "Vitrage2",
-         label :  "simple vitrage PVC"}
+         label :  "Simple vitrage PVC"}
 ];
