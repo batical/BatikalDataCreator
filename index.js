@@ -20,7 +20,8 @@ const specificCase = [
   'TemperaturBaseExtZone.json',
   'TUBES.json',
   'DataMaterial.json',
-  'CoeffGSimplifie.json'
+  'CoeffGSimplifie.json';
+  'TypeRadiateur.json'//not use anymore
 ];
 
 const notNeededForWeb = ['DnGaineEurovent_CarrreRctangulaire'];

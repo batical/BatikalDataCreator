@@ -241,7 +241,7 @@ int main(int argc, const char * argv[]) {
          *********************************************************************************
          ********************************* TypeRadiateur ******************************
          ********************************************************************************/
-        dataPath = [[NSBundle mainBundle] pathForResource:@"TypeRadiateur" ofType:@"json"];
+        dataPath = [[NSBundle mainBundle] pathForResource:@"RRadiateur" ofType:@"json"];
         etbs = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath] options:kNilOptions error:&error];
         [realm beginWriteTransaction];
         
@@ -576,7 +576,7 @@ int main(int argc, const char * argv[]) {
         success = [fileManager removeItemAtPath:iosRN error:&error];
         success = [[NSFileManager defaultManager]copyItemAtPath:yourArtPath toPath:iosRN error:&error];
                 if (success) {
-            NSLog(@"Copy successfull in dropbox");
+            NSLog(@"Copy successfull in ios folder");
         }
         else
         {
@@ -585,7 +585,7 @@ int main(int argc, const char * argv[]) {
         success = [fileManager removeItemAtPath:androidRN error:&error];
         success = [[NSFileManager defaultManager]copyItemAtPath:yourArtPath toPath:androidRN error:&error];
         if (success) {
-            NSLog(@"Copy successfull in dropbox");
+            NSLog(@"Copy successfull in android folder");
         }
         else
         {

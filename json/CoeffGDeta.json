@@ -10,7 +10,7 @@
   },
   {
     "uuid": "MEXT4",
-    "name": "Brique Creuse Alvéolé",
+    "name": "Brique Creuse Alvéolaires",
     "lambda": 0.37,
     "type": "mur"
   },
@@ -201,13 +201,13 @@
   },
   {
     "uuid": "ilosant1",
-    "name": "Polystyrène Expansé",
+    "name": "Polystyrène expansé",
     "lambda": 0.04,
     "type": "isolant"
   },
   {
     "uuid": "ilosant2",
-    "name": "Polystyrène Extrudé",
+    "name": "Polystyrène extrudé",
     "lambda": 0.03,
     "type": "isolant"
   },

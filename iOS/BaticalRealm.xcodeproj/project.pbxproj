@@ -38,6 +38,7 @@
 		A92E1ADE21146B2200B3C475 /* RRugositeMaterial.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E1ADA21146B2200B3C475 /* RRugositeMaterial.m */; };
 		A944B48C2288CEBE003020CD /* RCoeffGSimplifie.m in Sources */ = {isa = PBXBuildFile; fileRef = A944B48B2288CEBE003020CD /* RCoeffGSimplifie.m */; };
 		A944B48E2288D181003020CD /* CoeffGSimplifie.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A944B48D2288D0DA003020CD /* CoeffGSimplifie.json */; };
+		A98F81392298496E00861BD7 /* RRadiateur.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A98F81382298496000861BD7 /* RRadiateur.json */; };
 		A9AFEE07228AEAD500D9A412 /* CoeffGDeta.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9AFEE05228AEAC400D9A412 /* CoeffGDeta.json */; };
 		A9AFEE08228AEAD500D9A412 /* Vitrage.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9AFEE06228AEAC500D9A412 /* Vitrage.json */; };
 		A9AFEE0B228AEAFE00D9A412 /* RCoeffGDeta.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AFEE0A228AEAFE00D9A412 /* RCoeffGDeta.m */; };
@@ -80,6 +81,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				A98F81392298496E00861BD7 /* RRadiateur.json in CopyFiles */,
 				A9AFEE07228AEAD500D9A412 /* CoeffGDeta.json in CopyFiles */,
 				A9AFEE08228AEAD500D9A412 /* Vitrage.json in CopyFiles */,
 				A944B48E2288D181003020CD /* CoeffGSimplifie.json in CopyFiles */,
@@ -178,6 +180,7 @@
 		A944B48A2288CEBE003020CD /* RCoeffGSimplifie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCoeffGSimplifie.h; sourceTree = "<group>"; };
 		A944B48B2288CEBE003020CD /* RCoeffGSimplifie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCoeffGSimplifie.m; sourceTree = "<group>"; };
 		A944B48D2288D0DA003020CD /* CoeffGSimplifie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CoeffGSimplifie.json; path = ../../json/CoeffGSimplifie.json; sourceTree = "<group>"; };
+		A98F81382298496000861BD7 /* RRadiateur.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = RRadiateur.json; path = ../../json/RRadiateur.json; sourceTree = "<group>"; };
 		A9AFEE05228AEAC400D9A412 /* CoeffGDeta.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CoeffGDeta.json; path = ../../json/CoeffGDeta.json; sourceTree = "<group>"; };
 		A9AFEE06228AEAC500D9A412 /* Vitrage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Vitrage.json; path = ../../json/Vitrage.json; sourceTree = "<group>"; };
 		A9AFEE09228AEAFD00D9A412 /* RCoeffGDeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCoeffGDeta.h; sourceTree = "<group>"; };
@@ -262,6 +265,7 @@
 		055332F01CA0109E00BABFB7 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				A98F81382298496000861BD7 /* RRadiateur.json */,
 				A9AFEE05228AEAC400D9A412 /* CoeffGDeta.json */,
 				A9AFEE06228AEAC500D9A412 /* Vitrage.json */,
 				A9FBFDF422876DF7002F7046 /* AdoucisseurDiametreDebit.json */,
@@ -424,6 +428,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 055332C61C9E030C00BABFB7;
