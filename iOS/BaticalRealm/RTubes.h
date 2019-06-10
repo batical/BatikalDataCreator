@@ -20,8 +20,6 @@
 @property (nonatomic, strong) NSString * name;
 @property (nonatomic, assign) double rugositeMax;
 @property (nonatomic, assign) double rugositeMin;
-@property (nonatomic, assign) double sectionM;
-@property (nonatomic, assign) double sectionMm;
 @property (nonatomic, strong) NSString * type;
 @property (nonatomic, assign) double vmax;
 @property (nonatomic, assign) double conductivity;

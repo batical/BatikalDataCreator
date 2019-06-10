@@ -19,10 +19,7 @@
 }
 
 + (NSArray *)requiredProperties {
-    return @[@"uuid",@"expn" ,@"type",
-             @"coeffkm" ,
-             @"puiss50kw",
-             @"largeur",
+    return @[@"uuid",
              @"name"];
 }
 
@@ -34,6 +31,8 @@
              @"coeffkm" : @0.0,
              @"puiss50kw": @0.0,
              @"largeur": @0.0,
+             @"add" : @0.0,
+             @"factor" : @0.0,
              @"name" : @""};
 }
 
@@ -59,6 +58,12 @@
     }
     if(![dictionary[@"puiss50kw"] isKindOfClass:[NSNull class]]){
         self.puiss50kw = [dictionary[@"puiss50kw"] doubleValue];
+    }
+    if(![dictionary[@"add"] isKindOfClass:[NSNull class]]){
+        self.add = [dictionary[@"add"] doubleValue];
+    }
+    if(![dictionary[@"factor"] isKindOfClass:[NSNull class]]){
+        self.factor = [dictionary[@"factor"] doubleValue];
     }
 	if(![dictionary[@"largeur"] isKindOfClass:[NSNull class]]){
 		self.largeur = [dictionary[@"largeur"] doubleValue];

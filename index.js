@@ -20,8 +20,10 @@ const specificCase = [
   'TemperaturBaseExtZone.json',
   'TUBES.json',
   'DataMaterial.json',
-  'CoeffGSimplifie.json';
-  'TypeRadiateur.json'//not use anymore
+  'CoeffGSimplifie.json',
+  'TypeRadiateur.json',
+  'RRadiateur.json', //need to add the type in the list on create item per type
+  'CoeffGDeta.json' //need to add the type in the list on create item per type
 ];
 
 const notNeededForWeb = ['DnGaineEurovent_CarrreRctangulaire'];
@@ -36,33 +38,13 @@ async function main() {
       createWebCloud(file.replace('.json', ''));
     }
   });
-  // AdoucisseurDiametreDebit.json
-  // createWebCloud("AdoucisseurDiametreDebit");.json
-  // CapaciteResine.json
-  // CoeffD.json
-  // CoeffG.json
-  // CoefficientMajorationBatiment.json
-  // CompositionFoyerStandard.json
-  // Conductivite.json
+
   createRDJU();
   createDataMaterial();
   createCoeffGSimplifie();
-  // DebitPlomberie.json
-  // DepartementZone.json
-  // DnGaineEurovent_CarrreRctangulaire.json
-  // DnGaineEurovent_Circulaire.json
-  // EHPADcompositionECS.json
-  // IsolantECS.json
-  // LogementCompositionECS.json
-  // MasseVolumiqueViscosite.json
-  // PerteChargeAccident.json
-  // PerteChargeUnite.json
-  // RegimeDimensionnement.json
-  // RendementProduction.json
-  // Rugositeboussicaud20.json
-  // Squalitel.json
-  // TUBES.json
+  createCoeffGDeta();
   createTube();
+  createRRadiateur();
   // TemperaturBaseExtZone.json
   // TypeRadiateur.json
   //copy file
@@ -79,10 +61,6 @@ async function main() {
       fs.copyFileSync('./export/cloud/' + file, cloudPath + file);
     }
   });
-}
-
-function createCoeffGSimplifie() {
-  createCloud('CoeffGSimplifie');
 }
 
 function createWebCloud(url) {
@@ -110,12 +88,54 @@ function createWebLabelValue(url) {
   fs.appendFileSync(weburl, '];');
 }
 
+function createWebLabelValueByType(url, type) {
+  let weburl = `${webFolder}${url}${type}.js`;
+  const rawdata = fs.readFileSync(`./json/${url}.json`);
+  const jsondata = sortData(JSON.parse(rawdata), url);
+
+  fs.writeFileSync(weburl, fileLine + '[\n');
+  for (let index = 0; index < jsondata.length; index++) {
+    if (jsondata[index].type == type) {
+      fs.appendFileSync(
+        weburl,
+        `{value : "${jsondata[index].uuid}",
+         label :  "${jsondata[index].name}"}` +
+          (index == jsondata.length - 1 ? '' : ',') +
+          '\n'
+      );
+    }
+  }
+  fs.appendFileSync(weburl, '];');
+}
+
 function createCloud(url) {
   let cloudurl = `${cloudFolder}${url}.js`;
   const rawdata = fs.readFileSync(`./json/${url}.json`);
   const jsondata = sortData(JSON.parse(rawdata), url);
   fs.writeFileSync(cloudurl, fileLine);
   fs.appendFileSync(cloudurl, `${JSON.stringify(jsondata)}\n`);
+}
+
+function createCoeffGSimplifie() {
+  createCloud('CoeffGSimplifie');
+}
+
+function createRRadiateur() {
+  const url = 'RRadiateur';
+  createCloud(url);
+  createWebLabelValueByType(url, 'Acier');
+  createWebLabelValueByType(url, 'Aluminium');
+}
+
+function createCoeffGDeta() {
+  const url = 'CoeffGDeta';
+  createCloud('CoeffGDeta');
+  createWebLabelValueByType('CoeffGDeta', 'mur');
+  createWebLabelValueByType('CoeffGDeta', 'plafond');
+  createWebLabelValueByType('CoeffGDeta', 'isolant');
+  createWebLabelValueByType('CoeffGDeta', 'plancher');
+  createWebLabelValueByType('CoeffGDeta', 'porte');
+  createWebLabelValueByType('CoeffGDeta', 'ventilation');
 }
 
 function createDataMaterial() {

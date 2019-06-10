@@ -51,7 +51,7 @@ int main(int argc, const char * argv[]) {
         NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
         
         NSString *documentsDirectory = [paths objectAtIndex:0];
-        NSString *destinationFile = @"/Users/sebastienhecart/batikal/BatiKalRn-v5.realm";
+        NSString *destinationFile = @"/Users/sebastienhecart/batikal/Batikal/BatiKalRn-v5.realm";
         NSString *iosRN = @"/Users/sebastienhecart/batikal/Batikal/ios/BatiKalRn-v5.realm";
         NSString *androidRN = @"/Users/sebastienhecart/batikal/Batikal/android/app/src/main/assets/BatiKalRn-v5.realm";
         

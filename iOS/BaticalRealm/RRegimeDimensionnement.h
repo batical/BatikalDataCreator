@@ -11,13 +11,11 @@
 
 @interface RRegimeDimensionnement : RLMObject
 
-@property (nonatomic, assign) double coefficient_reduction;
-@property (nonatomic, assign) double dt_moyenne;
 @property (nonatomic, strong) NSString * name;
 @property (nonatomic, strong) NSString * uuid;
 @property (nonatomic, assign) double temperature_moyenne;
 
 -(instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
--(NSDictionary *)toDictionary;
+
 @end

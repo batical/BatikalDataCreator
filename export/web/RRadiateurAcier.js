@@ -13,16 +13,4 @@ export default  [
          label :  "Acier 3 panneaux (type 30)"},
 {value : "acier7",
          label :  "Acier 3 panneaux, 2 rangs d'ailettes (type 32)"},
-{value : "alu1",
-         label :  "Alu 350/100"},
-{value : "alu2",
-         label :  "Alu 500/80 A3"},
-{value : "alu3",
-         label :  "Alu 600/80 A3"},
-{value : "alu4",
-         label :  "Alu 700/80"},
-{value : "alu5",
-         label :  "Alu 800/80"},
-{value : "fonte1",
-         label :  "Fonte"}
 ];

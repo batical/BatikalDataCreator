@@ -71,7 +71,6 @@
 		A9FBFE2622876F88002F7046 /* Squalitel.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0222876DF8002F7046 /* Squalitel.json */; };
 		A9FBFE2722876F88002F7046 /* TemperaturBaseExtZone.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFE0422876DF8002F7046 /* TemperaturBaseExtZone.json */; };
 		A9FBFE2822876F88002F7046 /* TUBES.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDF222876DF7002F7046 /* TUBES.json */; };
-		A9FBFE2922876F88002F7046 /* TypeRadiateur.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9FBFDF722876DF8002F7046 /* TypeRadiateur.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -112,7 +111,6 @@
 				A9FBFE2622876F88002F7046 /* Squalitel.json in CopyFiles */,
 				A9FBFE2722876F88002F7046 /* TemperaturBaseExtZone.json in CopyFiles */,
 				A9FBFE2822876F88002F7046 /* TUBES.json in CopyFiles */,
-				A9FBFE2922876F88002F7046 /* TypeRadiateur.json in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

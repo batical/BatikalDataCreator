@@ -16,7 +16,5 @@ export default  [
 {value : "54DFE8A9-B3BA-449B-A97F-0963F81F77E9",
          label :  "90°/50°"},
 {value : "4C48AC0C-E5C2-4B2B-B730-AFF85B6E9090",
-         label :  "90°/60°"},
-{value : "80278E36-7D1A-498C-91DF-A8819C6D4B38",
-         label :  "90°/70°"}
+         label :  "90°/60°"}
 ];
