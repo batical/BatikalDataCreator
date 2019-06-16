@@ -12,7 +12,7 @@
  {
    "uuid": "3",
    "name": "ALU",
-   "rugosite": 0
+   "rugosite": 0.000003
  },
  {
    "uuid": "4",
@@ -47,7 +47,7 @@
  {
    "uuid": "10",
    "name": "Plastique",
-   "rugosite": 0
+   "rugosite": 0.000002
  },
  {
    "uuid": "11",
@@ -65,4 +65,3 @@
    "rugosite": 0.002
  }
 ]
-  
