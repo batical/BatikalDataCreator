@@ -5,6 +5,12 @@ export default  [
          label :  "Acier galva à joint spiral"},
 {value : "3",
          label :  "ALU"},
+{value : "13",
+         label :  "Brique"},
+{value : "12",
+         label :  "Béton ordinaire"},
+{value : "11",
+         label :  "Béton très lisse"},
 {value : "9",
          label :  "Fexible aluminium polyester"},
 {value : "7",
@@ -15,6 +21,8 @@ export default  [
          label :  "Flexible alu"},
 {value : "1",
          label :  "Inox"},
+{value : "10",
+         label :  "Plastique"},
 {value : "2",
          label :  "PVC"}
 ];
